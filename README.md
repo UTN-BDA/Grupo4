@@ -33,15 +33,6 @@ Actualmente incluye **tests unitarios** para verificar la creación de la aplica
 
 ---
 
-## Requisitos previos
-
-- Python 3.10 o superior (recomendado: 3.11)
-- Docker y Docker Compose (para PostgreSQL y pgAdmin)
-- Git (opcional, para clonar el repositorio)
-- Sistema operativo compatible (probado en Windows 10/11)
-
----
-
 ## Instalación y configuración
 
 ### 1. Clonar el repositorio
