@@ -118,7 +118,7 @@ Accede en http://localhost:5000 (las rutas están en desarrollo).
 
 ## Ejecutar los tests
 Configura el entorno de pruebas:
-bash$env:FLASK_CONTEXT="testing"
+$env:FLASK_CONTEXT="testing"
 
 ## Ejecuta los tests:
 python -m unittest discover -s tests
