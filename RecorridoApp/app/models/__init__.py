@@ -5,4 +5,3 @@ from .paradas import Parada
 from .linea_parada import LineaParada
 from .ruta import Ruta
 from .viaje import Viaje
-from .disponibilidad import Disponibilidad

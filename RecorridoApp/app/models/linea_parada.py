@@ -7,7 +7,7 @@ class LineaParada(db.Model):
     id: int = field(init=False)
     linea_id: int = field(init=False)
     parada_id: int = field(init=False)
-    orden: int = field(init=False)
+    orden: int = field(init=False)  # orden de la parada en la línea
 
     __tablename__ = "linea_parada"
     id = db.Column(db.Integer, primary_key=True)

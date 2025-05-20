@@ -7,7 +7,6 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(me
 # Crear app Flask según el contexto de entorno
 app = create_app()
 app.app_context().push()
-
 if __name__ == '__main__':
     """
     Server Startup
