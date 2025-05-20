@@ -18,7 +18,10 @@ class Config(object):
 class DevelopmentConfig(Config):
     DEBUG = True
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = os.getenv('DEV_DATABASE_URI')
+    uri = os.getenv('DEV_DATABASE_URI')
+    if not uri:
+        raise ValueError("DEV_DATABASE_URI no está definida en el .env")
+    SQLALCHEMY_DATABASE_URI = uri
     
 
 class TestConfig(Config):

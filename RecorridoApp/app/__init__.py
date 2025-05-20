@@ -1,13 +1,14 @@
 from flask import Flask
 from flask_marshmallow import Marshmallow
 from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 import os
 from app.config import config
-
+from app.Routes.main import bp as main_bp
 
 ma = Marshmallow()
 db=SQLAlchemy()
-
+migrate = Migrate()
 
 def create_app() -> Flask:
     app_context = os.getenv('FLASK_CONTEXT')
@@ -20,6 +21,7 @@ def create_app() -> Flask:
     # Inicializar extensiones
     ma.init_app(app)
     db.init_app(app)
+    migrate.init_app(app, db)
 
 
     # Registrar blueprints
@@ -30,6 +32,5 @@ def create_app() -> Flask:
     @app.shell_context_processor    
     def ctx():
         return {"app": app}
-    
+    app.register_blueprint(main_bp)
     return app
-
