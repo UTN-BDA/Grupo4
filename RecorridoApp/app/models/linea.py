@@ -11,7 +11,7 @@ class Linea(db.Model):
     frecuencia: int = field(init=False)
 
     __tablename__ = "linea"
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     codigo = db.Column(db.String(10), nullable=False, unique=True)
     nombre = db.Column(db.String(100), nullable=False, unique=True)
     empresa_id = db.Column(db.Integer, db.ForeignKey("empresa.id"), nullable=False)

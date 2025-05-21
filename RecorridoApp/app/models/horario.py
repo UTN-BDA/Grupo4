@@ -11,7 +11,7 @@ class Horario(db.Model):
     tipo_dia: str = field(init=False)
     
     __tablename__ = "horario"
-    id= db.Column(db.Integer, primary_key=True)
+    id= db.Column(db.Integer, primary_key=True, autoincrement=True)
     linea_parada = db.Column(db.Integer, db.ForeignKey("linea_parada.id"), nullable=False)
     hora = db.Column(db.Time, nullable=False)
     tipo_dia = db.Column(db.String(10), nullable=False)  # 'laboral', 'fin_de_semana', 'feriado'

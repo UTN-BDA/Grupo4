@@ -8,7 +8,7 @@ class Empresa(db.Model):
     nombre: str = field(init=False)
 
     __tablename__ = "empresa"
-    id= db.Column(db.Integer, primary_key=True)
+    id= db.Column(db.Integer, primary_key=True, autoincrement=True)
     nombre= db.Column(db.String(100), nullable=False, unique=True)
     
     def __repr__(self):

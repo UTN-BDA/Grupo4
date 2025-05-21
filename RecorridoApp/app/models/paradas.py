@@ -11,7 +11,7 @@ class Parada(db.Model):
     detalles_referencia: str = field(init=False)
 
     __tablename__ = "paradas"
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     ubicacion = db.Column(db.String(100), nullable=False, unique=True)
     latitud = db.Column(db.Float, nullable=False)
     longitud = db.Column(db.Float, nullable=False)
