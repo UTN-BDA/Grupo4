@@ -104,17 +104,17 @@ prod_db
 
 #### Verifica que existan recorrido_db, test_db, y prod_db.
 
-#### Crear las migraciones y las tablas
-# 1. Inicializa el directorio
+## Crear las migraciones y las tablas
+#### 1. Inicializa el directorio
 `flask db init`
 
-# 2. Genera una migracion automatica 
+#### 2. Genera una migracion automatica 
 `flask db migrate -m "Crear tablas iniciales"`
 
-# 3. Aplicar la migracion para crear las tablas.
+#### 3. Aplicar la migracion para crear las tablas.
 `flask db upgrade`
 
-# Cuando se modifiquen los modelos repetir los pasos 2 y 3.
+#### Cuando se modifiquen los modelos repetir los pasos 2 y 3.
 
 # USO
 ## Ejecutar la aplicación. Asegúrate de que el entorno virtual esté activado:

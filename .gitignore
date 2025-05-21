@@ -9,6 +9,8 @@ __pycache__/
 *.py[cod]
 *.pyo
 
+# Migraciones
+migrations/
 
 # Archivos de IDEs
 .vscode/
