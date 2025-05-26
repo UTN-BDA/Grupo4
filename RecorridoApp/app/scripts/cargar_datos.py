@@ -5,6 +5,7 @@ import logging
 from datetime import datetime, timedelta
 import random
 
+
 # Configurar el logging
 logging.basicConfig(
     level=logging.INFO,
@@ -21,6 +22,7 @@ app= create_app()
 from app.models import Empresa
 from app.models import Ruta
 from app.models import Viaje    
+import csv
 
 empresas= [
     {"nombre": "Iselin"},
@@ -33,30 +35,29 @@ empresas= [
 
 origen= "San Rafael"
 
-destino=[
-    {"nombre": "Mendoza", "tiempo_estimado": "3:15"},
-    {"nombre": "San Luis", "tiempo_estimado": "4:10"},
-    {"nombre": "La Rioja", "tiempo_estimado": "9:00"},
-    {"nombre": "Buenos Aires", "tiempo_estimado": "15:00"},
-    {"nombre": "Neuquen", "tiempo_estimado": "8:00"},
-    {"nombre": "San Juan", "tiempo_estimado": "5:40"},
-    {"nombre": "Cordoba", "tiempo_estimado": "10:30"},
-    {"nombre": "Santa Fe", "tiempo_estimado": "15:10"},
-    {"nombre": "Rosario", "tiempo_estimado": "12:55"},
-    {"nombre": "Tucuman", "tiempo_estimado": "17:10"},
-    {"nombre": "Salta", "tiempo_estimado": "18:00"},
-    {"nombre": "Mar del Plata", "tiempo_estimado": "16:00"},
-    {"nombre": "Ushuaia", "tiempo_estimado": "74:00"},
-    {"nombre": "Comodoro Rivadavia", "tiempo_estimado": "26:50"},
-    {"nombre": "Puerto Madryn", "tiempo_estimado": "20:10"},
-    {"nombre": "Misiones", "tiempo_estimado": "20:00"},
-    {"nombre": "Corrientes", "tiempo_estimado": "19:30"},
-    {"nombre": "Formosa", "tiempo_estimado": "16:00"},
-    {"nombre": "Chaco", "tiempo_estimado": "14:00"},
-    {"nombre": "Entre Rios", "tiempo_estimado": "16:00"},
-    {"nombre": "La Pampa", "tiempo_estimado": "7:00"},
-]
+script_dir = os.path.dirname(__file__)
+csv_destinos = os.path.join(script_dir, 'docs', 'data.csv')
 
+destinos = []
+with open(csv_destinos, newline='', encoding='utf-8') as csvfile:
+    # CSV con separador punto y coma
+    lector = csv.DictReader(csvfile, delimiter=';')
+    # Limpiar y filtrar nombres de campo
+    campos = [fn.strip() for fn in lector.fieldnames if fn and fn.strip()]
+    # Verificar columnas requeridas
+    if 'nombre' not in campos or 'tiempo_estimado' not in campos:
+        logger.error(f"El CSV debe tener columnas 'nombre' y 'tiempo_estimado'. Encontradas: {campos}")
+        sys.exit(1)
+    for fila in lector:
+        nombre = fila.get('nombre')
+        tiempo = fila.get('tiempo_estimado')
+        if nombre is None or tiempo is None:
+            logger.warning(f"Saltando fila incompleta: {fila}")
+            continue
+        destinos.append({
+            'nombre': nombre.strip(),
+            'tiempo_estimado': tiempo.strip()
+        })
 def parse_tiempo(tstr):
     horas, minutos = map(int, tstr.split(':'))
     return timedelta(hours=horas, minutes=minutos)
@@ -64,11 +65,17 @@ def parse_tiempo(tstr):
 viajes= []
 
 for empresa in empresas:
-    for dest in destino:
+    for dest in destinos:
         for i in range(5):
             hora_salida= datetime(2025, 1, 1, random.randint(0, 23), random.choice(range(0, 56,5)))
             tmp_estimado= parse_tiempo(dest["tiempo_estimado"])  
             hora_llegada= hora_salida + tmp_estimado
+
+            hora_salida_vuelta= hora_salida + timedelta(hours= 2, minutes=0) # Salida de vuelta 2 horas después de la llegada
+            hora_llegada_vuelta= hora_salida_vuelta + tmp_estimado
+
+            # Definir un costo aleatorio
+            costo_aleatorio = random.randint(10000, 30000) 
 
             viajes.append({
                 "empresa": empresa["nombre"],
@@ -76,77 +83,69 @@ for empresa in empresas:
                 "destino": dest["nombre"],
                 "hora_salida": hora_salida.strftime("%H:%M"),
                 "hora_llegada": hora_llegada.strftime("%H:%M"),
+                "costo_base": costo_aleatorio,
+            })
+            
+            viajes.append({
+                "empresa": empresa ["nombre"],
+                "origen": dest["nombre"],
+                "destino": origen,
+                "hora_salida": hora_salida_vuelta.strftime("%H:%M"),
+                "hora_llegada": hora_llegada_vuelta.strftime("%H:%M"),
+                "costo_base": costo_aleatorio,
             })
 
-# … tu código de generación de 'viajes' …
-
-from flask import Flask
-from sqlalchemy.exc import IntegrityError
 from app import db, create_app
 from app.models import Empresa, Ruta, Viaje
+from sqlalchemy import text
 
 app = create_app()
-app.app_context().push()
 
-# 1) Asegurarse de que todas las empresas existan
-empresa_map = {}
-for e in empresas:
-    nombre = e["nombre"]
-    # intenta recuperar...
-    obj = Empresa.query.filter_by(nombre=nombre).first()
-    if not obj:
-        obj = Empresa(nombre=nombre)
-        db.session.add(obj)
-        try:
-            db.session.commit()
-        except IntegrityError:
-            db.session.rollback()
-            obj = Empresa.query.filter_by(nombre=nombre).first()
-    empresa_map[nombre] = obj.id
-
-# 2) Insertar rutas y viajes
-ruta_map = {}
-for v in viajes:
-    key = (v["origen"], v["destino"], v["hora_salida"], v["hora_llegada"])
-    # 2.a) Ruta: crea sólo si no existe
-    if key not in ruta_map:
-        origen, destino, hs, hl = key
-        ruta = Ruta(
-            origen=origen,
-            destino=destino,
-            hora_salida=hs,
-            hora_llegada=hl
-        )
-        db.session.add(ruta)
-        try:
-            db.session.flush()      # para obtener ruta.id sin hacer commit completo
-        except IntegrityError:
-            db.session.rollback()
-            ruta = Ruta.query.filter_by(
-                origen=origen,
-                destino=destino,
-                hora_salida=hs,
-                hora_llegada=hl
-            ).first()
-        ruta_map[key] = ruta.id
-
-    ruta_id = ruta_map[key]
-    empresa_id = empresa_map[v["empresa"]]
-
-    # 2.b) Viaje: puedes asignar un costo_base según tu lógica; aquí, un random de ejemplo
-    costo_base = round(random.uniform(1000, 5000), 2)
-
-    viaje = Viaje(
-        ruta_id=ruta_id,
-        empresa_id=empresa_id,
-        costo_base=costo_base
-    )
-    db.session.add(viaje)
-
-# 3) Commit final
-try:
+with app.app_context():
+    # VACIAR tablas
+    db.session.execute(text('TRUNCATE TABLE viaje, ruta, empresa RESTART IDENTITY CASCADE;'))
     db.session.commit()
-    logger.info("Se han insertado todas las rutas y viajes correctamente.")
-except Exception as e:
-    db.session.rollback()
-    logger.error("Error al insertar datos: %s", e)
+    logger.info('Tablas truncadas')
+
+    # Insertar empresas
+    empresa_ids = {}
+    for e in empresas:
+        ent = db.session.query(Empresa).filter_by(nombre=e['nombre']).first()
+        if not ent:
+            ent = Empresa(nombre=e['nombre'])
+            db.session.add(ent); db.session.commit()
+        empresa_ids[e['nombre']] = ent.id
+
+    # Insertar rutas y viajes
+    ruta_map = {}
+    for v in viajes:
+        # Clave solo con origen y destino para rutas
+        key = (v['origen'], v['destino'])
+        if key not in ruta_map:
+            origen, destino = key
+            ruta = Ruta(
+                origen=origen,
+                destino=destino
+            )
+            db.session.add(ruta)
+            db.session.flush()  # Asigna ruta.id
+            ruta_map[key] = ruta.id
+       
+        # Insertar viaje con horarios y costo
+        ruta_id = ruta_map[key]
+        empresa_id = empresa_ids[v['empresa']]
+        viaje = Viaje(
+            ruta_id=ruta_id,
+            empresa_id=empresa_id,
+            hora_salida=v['hora_salida'],
+            hora_llegada=v['hora_llegada'],
+            costo_base=v['costo_base']
+        )
+        db.session.add(viaje)
+
+    try:
+        db.session.commit()
+        logger.info('Datos cargados correctamente')
+    except Exception as err:
+        db.session.rollback()
+        logger.error(f"Error cargando datos: {err}")
