@@ -68,11 +68,11 @@ FLASK_CONTEXT=development
 
 #### Crea un archivo .env con:
 
-POSTGRES_USER=recorrido  
-POSTGRES_PASSWORD=river  
-POSTGRES_DB=recorrido_db  
-PGADMIN_DEFAULT_EMAIL=recorrido@admin.com  
-PGADMIN_DEFAULT_PASSWORD=river  
+POSTGRES_USER  
+POSTGRES_PASSWORD   
+POSTGRES_DB  
+PGADMIN_DEFAULT_EMAIL  
+PGADMIN_DEFAULT_PASSWORD  
 
 #### Inicia los contenedores:
 
@@ -118,7 +118,6 @@ prod_db
 ## Ejecutar la aplicación. Asegúrate de que el entorno virtual esté activado:
 
 `.\venv\Scripts\activate`
-
 
 ## Inicia la aplicación
 
