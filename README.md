@@ -37,12 +37,12 @@ Actualmente incluye **tests unitarios** para verificar la creación de la aplica
 
 ### 1. Clonar el repositorio
 
-`git clone <URL_DEL_REPOSITORIO>`
+`git clone <URL_DEL_REPOSITORIO>`  
 `cd RecorridoApp`
 
 ### 2. Crear y activar un entorno virtual
 
-`python -m venv venv`
+`python -m venv venv`  
 `.\venv\Scripts\activate`
 
 ### 3. Instalar dependencias
@@ -131,7 +131,7 @@ Configura el entorno de pruebas:
 $env:FLASK_CONTEXT="testing"
 
 ## Ejecuta los tests:
-python -m unittest discover -s tests
+`python -m unittest discover -s tests`
 
 ## Los tests verifican:
 
