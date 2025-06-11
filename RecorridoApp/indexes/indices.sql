@@ -19,6 +19,17 @@ SELECT * FROM ruta WHERE id = 25;
 EXPLAIN ANALYZE SELECT * FROM ruta WHERE id = 25;
 
 --2. Búsqueda por destino en ruta:
+SELECT
+  r.origen,
+  r.destino,
+  v.hora_salida,
+  v.hora_llegada
+FROM ruta AS r
+INNER JOIN viaje AS v
+  ON v.ruta_id = r.id
+WHERE r.destino = 'Mendoza Capital';
+
+
 SELECT * FROM ruta WHERE destino = 'Mendoza';
 EXPLAIN ANALYZE SELECT * FROM ruta WHERE destino = 'Mendoza';
 
