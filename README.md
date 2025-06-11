@@ -54,13 +54,19 @@ Actualmente incluye **tests unitarios** para verificar la creación de la aplica
 SQLALCHEMY_TRACK_MODIFICATIONS=False
 SQLALCHEMY_RECORD_QUERIES=True
 
-DEV_DATABASE_URI=postgresql+psycopg2://recorrido:river@localhost:5433/recorrido_db
-TEST_DATABASE_URI=postgresql+psycopg2://recorrido:river@localhost:5433/test_db
-PROD_DATABASE_URI=postgresql+psycopg2://recorrido:river@localhost:5433/prod_db
+DEV_DATABASE_URI=postgresql+psycopg2://user:password@localhost:5433/recorrido_db
+TEST_DATABASE_URI=postgresql+psycopg2://user:password@localhost:5433/test_db
+PROD_DATABASE_URI=postgresql+psycopg2://user:password@localhost:5433/prod_db
 
 FLASK_CONTEXT=development
 
 ### 5. Configurar Docker en docker-postgresql/
+
+### Crear una red Docker  
+`docker network create --driver bridge mired`  
+
+### Verificación de red  
+`docker network ls`  
 
 #### Navega a docker-postgresql:
 
@@ -68,11 +74,11 @@ FLASK_CONTEXT=development
 
 #### Crea un archivo .env con:
 
-POSTGRES_USER  
-POSTGRES_PASSWORD   
-POSTGRES_DB  
-PGADMIN_DEFAULT_EMAIL  
-PGADMIN_DEFAULT_PASSWORD  
+POSTGRES_USER= user  
+POSTGRES_PASSWORD= password  
+POSTGRES_DB= postgress  
+PGADMIN_DEFAULT_EMAIL= example@gmail.com  
+PGADMIN_DEFAULT_PASSWORD= password
 
 #### Inicia los contenedores:
 
@@ -82,17 +88,17 @@ PGADMIN_DEFAULT_PASSWORD
 
 #### Abre http://localhost:8080 y accede a pgAdmin con:
 
-Email: recorrido@admin.com
-Password: river
+Email: example@gmail.com  
+Password: password  
 
 #### Crea un servidor:
 
-Name: Recorrido PostgreSQL
-Host: recorrido-postgresql
-Port: 5432
-Maintenance database: postgres
-Username: recorrido
-Password: river
+Name: Recorrido PostgreSQL  
+Host: recorrido-postgresql  
+Port: 5432  
+Maintenance database: postgres  
+Username: user  
+Password: password  
 
 
 #### En "Databases", crea:
@@ -125,14 +131,14 @@ prod_db
 Accede en http://localhost:5000 (las rutas están en desarrollo).
 
 ## Ejecutar los tests
-Configura el entorno de pruebas:
-$env:FLASK_CONTEXT="testing"
+Configura el entorno de pruebas:  
+$env:FLASK_CONTEXT="testing"  
 
-## Ejecuta los tests:
-`python -m unittest discover -s tests`
+## Ejecuta los tests:  
+`python -m unittest discover -s tests`  
 
-## Los tests verifican:
+## Los tests verifican:  
 
-Creación de la aplicación (test_app)
-Conexión a test_db (test_db_connection)
+Creación de la aplicación (test_app)  
+Conexión a test_db (test_db_connection)  
 
