@@ -37,17 +37,17 @@ Actualmente incluye **tests unitarios** para verificar la creación de la aplica
 
 ### 1. Clonar el repositorio
 
-git clone <URL_DEL_REPOSITORIO>
-cd RecorridoApp
+`git clone <URL_DEL_REPOSITORIO>`
+`cd RecorridoApp`
 
 ### 2. Crear y activar un entorno virtual
 
-python -m venv venv
-.\venv\Scripts\activate
+`python -m venv venv`
+`.\venv\Scripts\activate`
 
 ### 3. Instalar dependencias
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### 4. Configurar el archivo .env en RecorridoApp/
 
@@ -64,7 +64,7 @@ FLASK_CONTEXT=development
 
 #### Navega a docker-postgresql:
 
-cd docker-postgresql
+`cd docker-postgresql`
 
 #### Crea un archivo .env con:
 
@@ -77,7 +77,7 @@ PGADMIN_DEFAULT_PASSWORD=river
 
 #### Inicia los contenedores:
 
-docker-compose up -d
+`docker-compose up -d`
 
 ### 6. Crear las bases de datos
 
@@ -85,7 +85,6 @@ docker-compose up -d
 
 Email: recorrido@admin.com
 Password: river
-
 
 #### Crea un servidor:
 
@@ -119,12 +118,12 @@ prod_db
 # USO
 ## Ejecutar la aplicación. Asegúrate de que el entorno virtual esté activado:
 
-.\venv\Scripts\activate
+`.\venv\Scripts\activate`
 
 
 ## Inicia la aplicación
 
-flask run
+`flask run`
 Accede en http://localhost:5000 (las rutas están en desarrollo).
 
 ## Ejecutar los tests
