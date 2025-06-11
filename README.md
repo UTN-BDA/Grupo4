@@ -68,12 +68,11 @@ FLASK_CONTEXT=development
 
 #### Crea un archivo .env con:
 
-POSTGRES_USER=recorrido
-POSTGRES_PASSWORD=river
-POSTGRES_DB=recorrido_db
-
-PGADMIN_DEFAULT_EMAIL=recorrido@admin.com
-PGADMIN_DEFAULT_PASSWORD=river
+POSTGRES_USER=recorrido  
+POSTGRES_PASSWORD=river  
+POSTGRES_DB=recorrido_db  
+PGADMIN_DEFAULT_EMAIL=recorrido@admin.com  
+PGADMIN_DEFAULT_PASSWORD=river  
 
 #### Inicia los contenedores:
 
