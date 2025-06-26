@@ -37,6 +37,7 @@ Actualmente incluye **tests unitarios** para verificar la creación de la aplica
 
 ### 1. Clonar el repositorio
 Se recomienda clonar la rama develop, que es la más actualizada. Para hacerlo, ejecutá:
+
 `git clone -b develop <URL_DEL_REPOSITORIO>`  
 `cd RecorridoApp`
 
