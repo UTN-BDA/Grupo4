@@ -30,12 +30,12 @@ INNER JOIN viaje AS v
 WHERE r.destino = 'Mendoza Capital';
 
 
-SELECT * FROM ruta WHERE destino = 'Mendoza';
-EXPLAIN ANALYZE SELECT * FROM ruta WHERE destino = 'Mendoza';
+SELECT * FROM ruta WHERE destino = 'Mendoza Capital';
+EXPLAIN ANALYZE SELECT * FROM ruta WHERE destino = 'Mendoza Capital';
 
 
 CREATE INDEX idx_ruta_destino ON ruta(destino);
-EXPLAIN ANALYZE SELECT * FROM ruta WHERE destino = 'Mendoza';
+EXPLAIN ANALYZE SELECT * FROM ruta WHERE destino = 'Mendoza Capital';
 
 --3. Consulta por costo base en un rango
 SELECT * FROM viaje WHERE costo_base BETWEEN  1000 AND 2000;
@@ -46,11 +46,11 @@ EXPLAIN ANALYZE SELECT * FROM viaje WHERE costo_base BETWEEN 1000 AND 2000;
 
 --4. índice compuesto en destino y costo base
 
-SELECT v.costo_base FROM viaje v JOIN ruta r ON v.ruta_id = r.id WHERE r.destino = 'Mendoza';
-EXPLAIN ANALYZE SELECT v.costo_base FROM viaje v JOIN ruta r ON v.ruta_id = r.id WHERE r.destino = 'Mendoza';
+SELECT v.costo_base FROM viaje v JOIN ruta r ON v.ruta_id = r.id WHERE r.destino = 'Mendoza Capital';
+EXPLAIN ANALYZE SELECT v.costo_base FROM viaje v JOIN ruta r ON v.ruta_id = r.id WHERE r.destino = 'Mendoza Capital';
 
 CREATE INDEX idx_viaje_ruta_costo ON viaje(ruta_id, costo_base);
-EXPLAIN ANALYZE SELECT v.costo_base FROM viaje v JOIN ruta r ON v.ruta_id = r.id WHERE r.destino = 'Mendoza';
+EXPLAIN ANALYZE SELECT v.costo_base FROM viaje v JOIN ruta r ON v.ruta_id = r.id WHERE r.destino = 'Mendoza Capital';
 
 
 --5. índice por empresa_id en viaje

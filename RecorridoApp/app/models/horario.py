@@ -14,7 +14,7 @@ class Horario(db.Model):
     id= db.Column(db.Integer, primary_key=True, autoincrement=True)
     linea_parada = db.Column(db.Integer, db.ForeignKey("linea_parada.id"), nullable=False)
     hora = db.Column(db.Time, nullable=False)
-    tipo_dia = db.Column(db.String(10), nullable=False)  # 'laboral', 'fin_de_semana', 'feriado'
+    tipo_dia = db.Column(db.String(10), nullable=False)  # 'Habil' 'Sabado' 'Domingo'
     
     def __repr__(self):
         return f"<Horario(id={self.id}, linea_parada={self.linea_parada}, hora='{self.hora}', tipo_dia='{self.tipo_dia}')>"
