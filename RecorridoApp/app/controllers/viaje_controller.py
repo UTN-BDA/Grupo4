@@ -1,17 +1,85 @@
-from models.viaje import Viaje
-from models.ruta import Ruta
-from app import db
+from flask import Blueprint, jsonify, request
+from app.services.viaje_service import ViajeService
 
-def buscar_viajes(origen, destino):
-    # Buscar rutas que tengan ese origen y destino
-    rutas = Ruta.query.filter_by(origen=origen, destino=destino).all()
-    if not rutas:
-        return []  # no hay rutas
+viaje_bp = Blueprint('viajes', __name__)
 
-    ruta_ids = [ruta.id for ruta in rutas]
+def formatear_viajes(viajes_data):
+    """Función auxiliar para formatear un viaje"""
+    viajes = []
+    for viaje, ruta, empresa in viajes_data:
+        viaje_dict = {
+            'id': viaje.id,
+            'hora_salida': viaje.hora_salida.strftime('%H:%M'),
+            'hora_llegada': viaje.hora_llegada.strftime('%H:%M'),
+            'costo_base': viaje.costo_base,
+            'ruta': {
+                'id': ruta.id,
+                'origen': ruta.origen,
+                'destino': ruta.destino
+                },
+            'empresa': {
+                'id': empresa.id,
+                'nombre': empresa.nombre
+                }
+            }
+        viajes.append(viaje_dict)
+    return viajes
 
-    # Buscar viajes con esas rutas
-    viajes = Viaje.query.filter(Viaje.ruta_id.in_(ruta_ids)).all()
+@viaje_bp.route('/viajes', methods=['GET'])
+def obtener_viajes():
+    """Endpoint para obtener todos los viajes o buscar por origen/destino"""
+    try:
+        origen = request.args.get('origen', None)
+        destino = request.args.get('destino', None)
+        
+        if origen and destino:
+            viajes_data = ViajeService.buscar_viajes(origen, destino)
+        else:
+            viajes_data = ViajeService.obtener_todos_viajes()
+        
+        # Formatear respuesta
+        viajes= formatear_viajes(viajes_data)
+        
+        return jsonify({
+            'success': True,
+            'data': viajes,
+            'total': len(viajes)
+        }), 200
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
 
-    # Puedes devolver un listado serializado (por ejemplo con dataclasses o .__dict__)
-    return [viaje.__dict__ for viaje in viajes]
+@viaje_bp.route('/viajes/buscar', methods=['GET'])
+def buscar_viajes():
+    """Endpoint específico para buscar viajes por origen y destino"""
+    try:
+        origen = request.args.get('origen', '')
+        destino = request.args.get('destino', '')
+        
+        if not origen or not destino:
+            return jsonify({
+                'success': False,
+                'error': 'Origen y destino son requeridos'
+            }), 400
+        
+        viajes_data = ViajeService.buscar_viajes(origen, destino)
+        
+        # Formatear respuesta
+        viajes= formatear_viajes(viajes_data)
+        
+        return jsonify({
+            'success': True,
+            'data': viajes,
+            'total': len(viajes),
+            'busqueda': {
+                'origen': origen,
+                'destino': destino
+            }
+        }), 200
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500

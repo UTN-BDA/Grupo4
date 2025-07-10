@@ -1,17 +1,26 @@
-from app import create_app
-import logging
-from routes.viajes import viajes_bp
+from flask import Flask, jsonify
+from flask_cors import CORS
+import psycopg2
 
-# Configuración de logs
-logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
+app = Flask(__name__)
+CORS(app)  # permite solicitudes desde otros orígenes (como tu app Expo)
 
-# Crear app Flask según el contexto de entorno
-app = create_app()
-app.app_context().push()
+# Conexión a PostgreSQL
+conn = psycopg2.connect(
+    host="localhost",
+    database="mi_basededatos",
+    user="mi_usuario",
+    password="mi_contraseña"
+)
+
+@app.route('/api/usuarios')
+def get_usuarios():
+    cur = conn.cursor()
+    cur.execute('SELECT id, nombre FROM usuarios')
+    rows = cur.fetchall()
+    cur.close()
+    return jsonify([{"id": r[0], "nombre": r[1]} for r in rows])
+
 if __name__ == '__main__':
-    """
-    Server Startup
-    """
-    app.run(host="0.0.0.0", debug=False, port=5000)
-    app.register_blueprint(viajes_bp)
-    
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
