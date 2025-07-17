@@ -30,6 +30,7 @@ class ViajeService:
     @staticmethod
     def obtener_todos_viajes():
         """Obtiene todos los viajes disponibles"""
+        print(Viaje)
         return db.session.query(Viaje, Ruta, Empresa)\
             .join(Ruta, Viaje.ruta_id == Ruta.id)\
             .join(Empresa, Viaje.empresa_id == Empresa.id)\

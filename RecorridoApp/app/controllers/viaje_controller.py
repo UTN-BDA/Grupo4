@@ -39,7 +39,7 @@ def obtener_viajes():
         
         # Formatear respuesta
         viajes= formatear_viajes(viajes_data)
-        
+
         return jsonify({
             'success': True,
             'data': viajes,
@@ -65,6 +65,7 @@ def buscar_viajes():
             }), 400
         
         viajes_data = ViajeService.buscar_viajes(origen, destino)
+        print(f"Origen: {origen}, Destino: {destino}")
         
         # Formatear respuesta
         viajes= formatear_viajes(viajes_data)

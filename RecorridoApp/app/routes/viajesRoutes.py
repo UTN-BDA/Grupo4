@@ -12,4 +12,9 @@ def obtener_viajes():
         return jsonify({"error": "Debe especificar origen y destino"}), 400
 
     viajes = buscar_viajes(origen, destino)
-    return jsonify(viajes)
+    return jsonify({
+    "success": True,
+    "total": len(viajes),
+    "data": viajes
+})
+
