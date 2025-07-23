@@ -1,0 +1,5412 @@
+{
+  "empresas": [
+    {
+      "nombre": "Iselin S.R.L."
+    },
+    {
+      "nombre": "A. Buttini e Hijos S.R.L."
+    }
+  ],
+  "paradas": [
+    {
+      "ubicacion": "Terminal San Rafael",
+      "latitud": -34.6177,
+      "longitud": -68.3301,
+      "detalles_referencia": "Terminal de ómnibus - Av. Balloffet y Mitre"
+    },
+    {
+      "ubicacion": "Plaza San Martín",
+      "latitud": -34.6158,
+      "longitud": -68.3307,
+      "detalles_referencia": "Plaza central - Av. San Martín y Belgrano"
+    },
+    {
+      "ubicacion": "Municipalidad",
+      "latitud": -34.6143,
+      "longitud": -68.3289,
+      "detalles_referencia": "Palacio Municipal - Av. San Martín 175"
+    },
+    {
+      "ubicacion": "Hospital Schestakow",
+      "latitud": -34.6089,
+      "longitud": -68.3245,
+      "detalles_referencia": "Hospital público - Av. San Martín Norte"
+    },
+    {
+      "ubicacion": "Centro Cívico",
+      "latitud": -34.6123,
+      "longitud": -68.3278,
+      "detalles_referencia": "Edificios gubernamentales - Belgrano y Córdoba"
+    },
+    {
+      "ubicacion": "Banco Nación",
+      "latitud": -34.6165,
+      "longitud": -68.3295,
+      "detalles_referencia": "Sucursal central - Av. San Martín y Salta"
+    },
+    {
+      "ubicacion": "Supermercado Libertad",
+      "latitud": -34.6167,
+      "longitud": -68.3334,
+      "detalles_referencia": "Supermercado céntrico - Av. San Martín"
+    },
+    {
+      "ubicacion": "Estación YPF Centro",
+      "latitud": -34.6134,
+      "longitud": -68.3289,
+      "detalles_referencia": "Estación de servicio céntrica"
+    },
+    {
+      "ubicacion": "Cementerio Municipal",
+      "latitud": -34.6045,
+      "longitud": -68.3189,
+      "detalles_referencia": "Cementerio San Rafael - Ruta 144 Norte"
+    },
+    {
+      "ubicacion": "Barrio UNIMEV",
+      "latitud": -34.5987,
+      "longitud": -68.3156,
+      "detalles_referencia": "Barrio UNIMEV - Acceso Norte"
+    },
+    {
+      "ubicacion": "Universidad Nacional",
+      "latitud": -34.5945,
+      "longitud": -68.3089,
+      "detalles_referencia": "UNCuyo Sede San Rafael"
+    },
+    {
+      "ubicacion": "Barrio Valle Grande",
+      "latitud": -34.5923,
+      "longitud": -68.3123,
+      "detalles_referencia": "Centro del Barrio Valle Grande"
+    },
+    {
+      "ubicacion": "Barrio Docente",
+      "latitud": -34.5901,
+      "longitud": -68.3087,
+      "detalles_referencia": "Barrio Docente - Zona residencial"
+    },
+    {
+      "ubicacion": "Los Filtros",
+      "latitud": -34.5834,
+      "longitud": -68.3201,
+      "detalles_referencia": "Zona Los Filtros - Ruta Provincial 144"
+    },
+    {
+      "ubicacion": "Acceso Norte",
+      "latitud": -34.5789,
+      "longitud": -68.3234,
+      "detalles_referencia": "Rotonda de acceso norte a la ciudad"
+    },
+    {
+      "ubicacion": "Barrio Unión Obrera",
+      "latitud": -34.6345,
+      "longitud": -68.3245,
+      "detalles_referencia": "Barrio Unión Obrera - Zona Sur"
+    },
+    {
+      "ubicacion": "El Cerrito",
+      "latitud": -34.6456,
+      "longitud": -68.3456,
+      "detalles_referencia": "Barrio El Cerrito - Acceso Sur"
+    },
+    {
+      "ubicacion": "Barrio Cristiano",
+      "latitud": -34.6389,
+      "longitud": -68.3198,
+      "detalles_referencia": "Barrio Cristiano - Zona Sur"
+    },
+    {
+      "ubicacion": "Barrio Libertad",
+      "latitud": -34.6298,
+      "longitud": -68.3387,
+      "detalles_referencia": "Barrio Libertad - Moreno Sur"
+    },
+    {
+      "ubicacion": "Acceso Sur Ruta 143",
+      "latitud": -34.6567,
+      "longitud": -68.3234,
+      "detalles_referencia": "Acceso sur por Ruta Nacional 143"
+    },
+    {
+      "ubicacion": "Río Diamante",
+      "latitud": -34.5723,
+      "longitud": -68.2987,
+      "detalles_referencia": "Acceso al Río Diamante - Zona Este"
+    },
+    {
+      "ubicacion": "Cuadro Nacional",
+      "latitud": -34.6156,
+      "longitud": -68.2845,
+      "detalles_referencia": "Cuadro Nacional - Ruta 143"
+    },
+    {
+      "ubicacion": "Rama Caída",
+      "latitud": -34.6234,
+      "longitud": -68.2789,
+      "detalles_referencia": "Zona Rama Caída - Este San Rafael"
+    },
+    {
+      "ubicacion": "Las Paredes",
+      "latitud": -34.6234,
+      "longitud": -68.2456,
+      "detalles_referencia": "Las Paredes - Distrito Este"
+    },
+    {
+      "ubicacion": "Puente Río Diamante",
+      "latitud": -34.5945,
+      "longitud": -68.2756,
+      "detalles_referencia": "Puente sobre Río Diamante"
+    },
+    {
+      "ubicacion": "Villa 25 de Mayo",
+      "latitud": -34.6234,
+      "longitud": -68.3678,
+      "detalles_referencia": "Villa 25 de Mayo - Zona Oeste"
+    },
+    {
+      "ubicacion": "Zanjón Civit",
+      "latitud": -34.6178,
+      "longitud": -68.3789,
+      "detalles_referencia": "Zona Zanjón Civit - Oeste"
+    },
+    {
+      "ubicacion": "Cuadro Benegas",
+      "latitud": -34.6298,
+      "longitud": -68.3987,
+      "detalles_referencia": "Cuadro Benegas - Rural Oeste"
+    },
+    {
+      "ubicacion": "Pedro Vargas",
+      "latitud": -34.6445,
+      "longitud": -68.4123,
+      "detalles_referencia": "Pedro Vargas - Zona Rural"
+    },
+    {
+      "ubicacion": "Los Coroneles",
+      "latitud": -34.6567,
+      "longitud": -68.4234,
+      "detalles_referencia": "Los Coroneles - Distrito Rural"
+    },
+    {
+      "ubicacion": "Bella Vista",
+      "latitud": -34.6123,
+      "longitud": -68.3998,
+      "detalles_referencia": "Barrio Bella Vista - Zona Oeste"
+    },
+    {
+      "ubicacion": "Claveles",
+      "latitud": -34.6089,
+      "longitud": -68.4056,
+      "detalles_referencia": "Barrio Claveles - Zona Oeste"
+    },
+    {
+      "ubicacion": "El Nihuil",
+      "latitud": -34.7123,
+      "longitud": -68.4567,
+      "detalles_referencia": "Dique El Nihuil - Zona Turística"
+    },
+    {
+      "ubicacion": "Jensen",
+      "latitud": -34.5678,
+      "longitud": -68.4123,
+      "detalles_referencia": "Jensen - Distrito Rural Norte"
+    },
+    {
+      "ubicacion": "Cañada Seca",
+      "latitud": -34.6789,
+      "longitud": -68.3987,
+      "detalles_referencia": "Cañada Seca - Zona Rural Sur"
+    },
+    {
+      "ubicacion": "Salto de las Rosas",
+      "latitud": -34.5987,
+      "longitud": -68.4456,
+      "detalles_referencia": "Salto de las Rosas - Atractivo Turístico"
+    },
+    {
+      "ubicacion": "El Usillal",
+      "latitud": -34.5456,
+      "longitud": -68.4567,
+      "detalles_referencia": "El Usillal - Zona Rural Norte"
+    },
+    {
+      "ubicacion": "Costa Toledano",
+      "latitud": -34.6678,
+      "longitud": -68.3456,
+      "detalles_referencia": "Costa Toledano - Zona Productiva"
+    },
+    {
+      "ubicacion": "Colonia Iaccarini",
+      "latitud": -34.6756,
+      "longitud": -68.3567,
+      "detalles_referencia": "Colonia Iaccarini - Zona Rural"
+    },
+    {
+      "ubicacion": "Montoya",
+      "latitud": -34.6445,
+      "longitud": -68.2334,
+      "detalles_referencia": "Montoya - Distrito Rural Este"
+    },
+    {
+      "ubicacion": "El Cristo",
+      "latitud": -34.6567,
+      "longitud": -68.2456,
+      "detalles_referencia": "El Cristo - Zona Rural Este"
+    },
+    {
+      "ubicacion": "Cuarteles",
+      "latitud": -34.6889,
+      "longitud": -68.3789,
+      "detalles_referencia": "Cuarteles - Acceso a Cañada Seca"
+    }
+  ],
+  "lineas": [
+    {
+      "codigo": "511A",
+      "nombre": "Río Diamante - Centro (por Sarmiento)",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 30
+    },
+    {
+      "codigo": "511B",
+      "nombre": "Rama Caída - Centro (por Salas)",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 35
+    },
+    {
+      "codigo": "511C",
+      "nombre": "Los Filtros - Terminal",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 40
+    },
+    {
+      "codigo": "512A",
+      "nombre": "Barrio Cristiano - Barrio Unión Obrera",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 45
+    },
+    {
+      "codigo": "512B",
+      "nombre": "Barrio Cristiano - El Cerrito",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 50
+    },
+    {
+      "codigo": "513A",
+      "nombre": "Barrio UNIMEV - Cementerio (por Córdoba)",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 40
+    },
+    {
+      "codigo": "513B",
+      "nombre": "Barrio Libertad - Cementerio (por Moreno)",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 45
+    },
+    {
+      "codigo": "514A",
+      "nombre": "Valle Grande/Docente - Cementerio",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 35
+    },
+    {
+      "codigo": "514B",
+      "nombre": "Valle Grande/Docente - Centro/Molino",
+      "empresa": "Iselin S.R.L.",
+      "frecuencia": 35
+    },
+    {
+      "codigo": "541",
+      "nombre": "Zanjón Civit",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 60
+    },
+    {
+      "codigo": "542",
+      "nombre": "Cuadro Benegas - Pedro Vargas",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 45
+    },
+    {
+      "codigo": "543",
+      "nombre": "Pedro Vargas - Los Coroneles",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 50
+    },
+    {
+      "codigo": "544",
+      "nombre": "Salto de las Rosas - Bella Vista - Claveles",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 55
+    },
+    {
+      "codigo": "547",
+      "nombre": "El Nihuil",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 90
+    },
+    {
+      "codigo": "548",
+      "nombre": "Cañada Seca por Cuarteles",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 70
+    },
+    {
+      "codigo": "571",
+      "nombre": "Jensen por Dean Funes",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 60
+    },
+    {
+      "codigo": "572",
+      "nombre": "El Usillal",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 80
+    },
+    {
+      "codigo": "573",
+      "nombre": "Costa Toledano - Colonia Iaccarini",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 75
+    },
+    {
+      "codigo": "574",
+      "nombre": "Las Paredes - Montoya - El Cristo",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 65
+    },
+    {
+      "codigo": "575",
+      "nombre": "Villa 25 de Mayo",
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "frecuencia": 55
+    }
+  ],
+  "linea_paradas": [
+    {
+      "id": 1,
+      "linea_codigo": "511A",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 2,
+      "linea_codigo": "511A",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 3,
+      "linea_codigo": "511A",
+      "parada_ubicacion": "Banco Nación",
+      "orden": 3
+    },
+    {
+      "id": 4,
+      "linea_codigo": "511A",
+      "parada_ubicacion": "Centro Cívico",
+      "orden": 4
+    },
+    {
+      "id": 5,
+      "linea_codigo": "511A",
+      "parada_ubicacion": "Puente Río Diamante",
+      "orden": 5
+    },
+    {
+      "id": 6,
+      "linea_codigo": "511A",
+      "parada_ubicacion": "Río Diamante",
+      "orden": 6
+    },
+    {
+      "id": 7,
+      "linea_codigo": "511A",
+      "parada_ubicacion": "Cuadro Nacional",
+      "orden": 7
+    },
+    {
+      "id": 8,
+      "linea_codigo": "511B",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 9,
+      "linea_codigo": "511B",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 10,
+      "linea_codigo": "511B",
+      "parada_ubicacion": "Municipalidad",
+      "orden": 3
+    },
+    {
+      "id": 11,
+      "linea_codigo": "511B",
+      "parada_ubicacion": "Hospital Schestakow",
+      "orden": 4
+    },
+    {
+      "id": 12,
+      "linea_codigo": "511B",
+      "parada_ubicacion": "Acceso Norte",
+      "orden": 5
+    },
+    {
+      "id": 13,
+      "linea_codigo": "511B",
+      "parada_ubicacion": "Rama Caída",
+      "orden": 6
+    },
+    {
+      "id": 14,
+      "linea_codigo": "511C",
+      "parada_ubicacion": "Los Filtros",
+      "orden": 1
+    },
+    {
+      "id": 15,
+      "linea_codigo": "511C",
+      "parada_ubicacion": "Acceso Norte",
+      "orden": 2
+    },
+    {
+      "id": 16,
+      "linea_codigo": "511C",
+      "parada_ubicacion": "Universidad Nacional",
+      "orden": 3
+    },
+    {
+      "id": 17,
+      "linea_codigo": "511C",
+      "parada_ubicacion": "Barrio Valle Grande",
+      "orden": 4
+    },
+    {
+      "id": 18,
+      "linea_codigo": "511C",
+      "parada_ubicacion": "Hospital Schestakow",
+      "orden": 5
+    },
+    {
+      "id": 19,
+      "linea_codigo": "511C",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 6
+    },
+    {
+      "id": 20,
+      "linea_codigo": "511C",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 7
+    },
+    {
+      "id": 21,
+      "linea_codigo": "512A",
+      "parada_ubicacion": "Barrio Cristiano",
+      "orden": 1
+    },
+    {
+      "id": 22,
+      "linea_codigo": "512A",
+      "parada_ubicacion": "Barrio Libertad",
+      "orden": 2
+    },
+    {
+      "id": 23,
+      "linea_codigo": "512A",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 3
+    },
+    {
+      "id": 24,
+      "linea_codigo": "512A",
+      "parada_ubicacion": "Centro Cívico",
+      "orden": 4
+    },
+    {
+      "id": 25,
+      "linea_codigo": "512A",
+      "parada_ubicacion": "Supermercado Libertad",
+      "orden": 5
+    },
+    {
+      "id": 26,
+      "linea_codigo": "512A",
+      "parada_ubicacion": "Barrio Unión Obrera",
+      "orden": 6
+    },
+    {
+      "id": 27,
+      "linea_codigo": "512B",
+      "parada_ubicacion": "Barrio Cristiano",
+      "orden": 1
+    },
+    {
+      "id": 28,
+      "linea_codigo": "512B",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 29,
+      "linea_codigo": "512B",
+      "parada_ubicacion": "Municipalidad",
+      "orden": 3
+    },
+    {
+      "id": 30,
+      "linea_codigo": "512B",
+      "parada_ubicacion": "Acceso Sur Ruta 143",
+      "orden": 4
+    },
+    {
+      "id": 31,
+      "linea_codigo": "512B",
+      "parada_ubicacion": "El Cerrito",
+      "orden": 5
+    },
+    {
+      "id": 32,
+      "linea_codigo": "513A",
+      "parada_ubicacion": "Barrio UNIMEV",
+      "orden": 1
+    },
+    {
+      "id": 33,
+      "linea_codigo": "513A",
+      "parada_ubicacion": "Universidad Nacional",
+      "orden": 2
+    },
+    {
+      "id": 34,
+      "linea_codigo": "513A",
+      "parada_ubicacion": "Hospital Schestakow",
+      "orden": 3
+    },
+    {
+      "id": 35,
+      "linea_codigo": "513A",
+      "parada_ubicacion": "Centro Cívico",
+      "orden": 4
+    },
+    {
+      "id": 36,
+      "linea_codigo": "513A",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 5
+    },
+    {
+      "id": 37,
+      "linea_codigo": "513A",
+      "parada_ubicacion": "Cementerio Municipal",
+      "orden": 6
+    },
+    {
+      "id": 38,
+      "linea_codigo": "513B",
+      "parada_ubicacion": "Barrio Libertad",
+      "orden": 1
+    },
+    {
+      "id": 39,
+      "linea_codigo": "513B",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 40,
+      "linea_codigo": "513B",
+      "parada_ubicacion": "Municipalidad",
+      "orden": 3
+    },
+    {
+      "id": 41,
+      "linea_codigo": "513B",
+      "parada_ubicacion": "Hospital Schestakow",
+      "orden": 4
+    },
+    {
+      "id": 42,
+      "linea_codigo": "513B",
+      "parada_ubicacion": "Cementerio Municipal",
+      "orden": 5
+    },
+    {
+      "id": 43,
+      "linea_codigo": "514A",
+      "parada_ubicacion": "Barrio Valle Grande",
+      "orden": 1
+    },
+    {
+      "id": 44,
+      "linea_codigo": "514A",
+      "parada_ubicacion": "Barrio Docente",
+      "orden": 2
+    },
+    {
+      "id": 45,
+      "linea_codigo": "514A",
+      "parada_ubicacion": "Universidad Nacional",
+      "orden": 3
+    },
+    {
+      "id": 46,
+      "linea_codigo": "514A",
+      "parada_ubicacion": "Hospital Schestakow",
+      "orden": 4
+    },
+    {
+      "id": 47,
+      "linea_codigo": "514A",
+      "parada_ubicacion": "Centro Cívico",
+      "orden": 5
+    },
+    {
+      "id": 48,
+      "linea_codigo": "514A",
+      "parada_ubicacion": "Cementerio Municipal",
+      "orden": 6
+    },
+    {
+      "id": 49,
+      "linea_codigo": "514B",
+      "parada_ubicacion": "Barrio Valle Grande",
+      "orden": 1
+    },
+    {
+      "id": 50,
+      "linea_codigo": "514B",
+      "parada_ubicacion": "Barrio Docente",
+      "orden": 2
+    },
+    {
+      "id": 51,
+      "linea_codigo": "514B",
+      "parada_ubicacion": "Universidad Nacional",
+      "orden": 3
+    },
+    {
+      "id": 52,
+      "linea_codigo": "514B",
+      "parada_ubicacion": "Hospital Schestakow",
+      "orden": 4
+    },
+    {
+      "id": 53,
+      "linea_codigo": "514B",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 5
+    },
+    {
+      "id": 54,
+      "linea_codigo": "514B",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 6
+    },
+    {
+      "id": 55,
+      "linea_codigo": "541",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 56,
+      "linea_codigo": "541",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 57,
+      "linea_codigo": "541",
+      "parada_ubicacion": "Municipalidad",
+      "orden": 3
+    },
+    {
+      "id": 58,
+      "linea_codigo": "541",
+      "parada_ubicacion": "Villa 25 de Mayo",
+      "orden": 4
+    },
+    {
+      "id": 59,
+      "linea_codigo": "541",
+      "parada_ubicacion": "Zanjón Civit",
+      "orden": 5
+    },
+    {
+      "id": 60,
+      "linea_codigo": "542",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 61,
+      "linea_codigo": "542",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 62,
+      "linea_codigo": "542",
+      "parada_ubicacion": "Villa 25 de Mayo",
+      "orden": 3
+    },
+    {
+      "id": 63,
+      "linea_codigo": "542",
+      "parada_ubicacion": "Cuadro Benegas",
+      "orden": 4
+    },
+    {
+      "id": 64,
+      "linea_codigo": "542",
+      "parada_ubicacion": "Pedro Vargas",
+      "orden": 5
+    },
+    {
+      "id": 65,
+      "linea_codigo": "543",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 66,
+      "linea_codigo": "543",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 67,
+      "linea_codigo": "543",
+      "parada_ubicacion": "Pedro Vargas",
+      "orden": 3
+    },
+    {
+      "id": 68,
+      "linea_codigo": "543",
+      "parada_ubicacion": "Los Coroneles",
+      "orden": 4
+    },
+    {
+      "id": 69,
+      "linea_codigo": "544",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 70,
+      "linea_codigo": "544",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 71,
+      "linea_codigo": "544",
+      "parada_ubicacion": "Villa 25 de Mayo",
+      "orden": 3
+    },
+    {
+      "id": 72,
+      "linea_codigo": "544",
+      "parada_ubicacion": "Bella Vista",
+      "orden": 4
+    },
+    {
+      "id": 73,
+      "linea_codigo": "544",
+      "parada_ubicacion": "Claveles",
+      "orden": 5
+    },
+    {
+      "id": 74,
+      "linea_codigo": "544",
+      "parada_ubicacion": "Salto de las Rosas",
+      "orden": 6
+    },
+    {
+      "id": 75,
+      "linea_codigo": "547",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 76,
+      "linea_codigo": "547",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 77,
+      "linea_codigo": "547",
+      "parada_ubicacion": "Municipalidad",
+      "orden": 3
+    },
+    {
+      "id": 78,
+      "linea_codigo": "547",
+      "parada_ubicacion": "Villa 25 de Mayo",
+      "orden": 4
+    },
+    {
+      "id": 79,
+      "linea_codigo": "547",
+      "parada_ubicacion": "Zanjón Civit",
+      "orden": 5
+    },
+    {
+      "id": 80,
+      "linea_codigo": "547",
+      "parada_ubicacion": "El Nihuil",
+      "orden": 6
+    },
+    {
+      "id": 81,
+      "linea_codigo": "548",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 82,
+      "linea_codigo": "548",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 83,
+      "linea_codigo": "548",
+      "parada_ubicacion": "Barrio Unión Obrera",
+      "orden": 3
+    },
+    {
+      "id": 84,
+      "linea_codigo": "548",
+      "parada_ubicacion": "Cuarteles",
+      "orden": 4
+    },
+    {
+      "id": 85,
+      "linea_codigo": "548",
+      "parada_ubicacion": "Cañada Seca",
+      "orden": 5
+    },
+    {
+      "id": 86,
+      "linea_codigo": "571",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 87,
+      "linea_codigo": "571",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 88,
+      "linea_codigo": "571",
+      "parada_ubicacion": "Universidad Nacional",
+      "orden": 3
+    },
+    {
+      "id": 89,
+      "linea_codigo": "571",
+      "parada_ubicacion": "Los Filtros",
+      "orden": 4
+    },
+    {
+      "id": 90,
+      "linea_codigo": "571",
+      "parada_ubicacion": "Jensen",
+      "orden": 5
+    },
+    {
+      "id": 91,
+      "linea_codigo": "572",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 92,
+      "linea_codigo": "572",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 93,
+      "linea_codigo": "572",
+      "parada_ubicacion": "Los Filtros",
+      "orden": 3
+    },
+    {
+      "id": 94,
+      "linea_codigo": "572",
+      "parada_ubicacion": "Acceso Norte",
+      "orden": 4
+    },
+    {
+      "id": 95,
+      "linea_codigo": "572",
+      "parada_ubicacion": "El Usillal",
+      "orden": 5
+    },
+    {
+      "id": 96,
+      "linea_codigo": "573",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 97,
+      "linea_codigo": "573",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 98,
+      "linea_codigo": "573",
+      "parada_ubicacion": "Barrio Unión Obrera",
+      "orden": 3
+    },
+    {
+      "id": 99,
+      "linea_codigo": "573",
+      "parada_ubicacion": "Costa Toledano",
+      "orden": 4
+    },
+    {
+      "id": 100,
+      "linea_codigo": "573",
+      "parada_ubicacion": "Colonia Iaccarini",
+      "orden": 5
+    },
+    {
+      "id": 101,
+      "linea_codigo": "574",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 102,
+      "linea_codigo": "574",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 103,
+      "linea_codigo": "574",
+      "parada_ubicacion": "Cuadro Nacional",
+      "orden": 3
+    },
+    {
+      "id": 104,
+      "linea_codigo": "574",
+      "parada_ubicacion": "Las Paredes",
+      "orden": 4
+    },
+    {
+      "id": 105,
+      "linea_codigo": "574",
+      "parada_ubicacion": "Montoya",
+      "orden": 5
+    },
+    {
+      "id": 106,
+      "linea_codigo": "574",
+      "parada_ubicacion": "El Cristo",
+      "orden": 6
+    },
+    {
+      "id": 107,
+      "linea_codigo": "575",
+      "parada_ubicacion": "Terminal San Rafael",
+      "orden": 1
+    },
+    {
+      "id": 108,
+      "linea_codigo": "575",
+      "parada_ubicacion": "Plaza San Martín",
+      "orden": 2
+    },
+    {
+      "id": 109,
+      "linea_codigo": "575",
+      "parada_ubicacion": "Centro Cívico",
+      "orden": 3
+    },
+    {
+      "id": 110,
+      "linea_codigo": "575",
+      "parada_ubicacion": "Supermercado Libertad",
+      "orden": 4
+    },
+    {
+      "id": 111,
+      "linea_codigo": "575",
+      "parada_ubicacion": "Villa 25 de Mayo",
+      "orden": 5
+    }
+  ],
+  "horarios": [
+    {
+      "id": 1,
+      "linea_parada_id": 1,
+      "hora": "06:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 2,
+      "linea_parada_id": 1,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 3,
+      "linea_parada_id": 1,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 4,
+      "linea_parada_id": 1,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 5,
+      "linea_parada_id": 1,
+      "hora": "08:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 6,
+      "linea_parada_id": 1,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 7,
+      "linea_parada_id": 1,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 8,
+      "linea_parada_id": 1,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 9,
+      "linea_parada_id": 1,
+      "hora": "10:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 10,
+      "linea_parada_id": 1,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 11,
+      "linea_parada_id": 1,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 12,
+      "linea_parada_id": 1,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 13,
+      "linea_parada_id": 1,
+      "hora": "12:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 14,
+      "linea_parada_id": 1,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 15,
+      "linea_parada_id": 1,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 16,
+      "linea_parada_id": 1,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 17,
+      "linea_parada_id": 1,
+      "hora": "14:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 18,
+      "linea_parada_id": 1,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 19,
+      "linea_parada_id": 1,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 20,
+      "linea_parada_id": 1,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 21,
+      "linea_parada_id": 1,
+      "hora": "16:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 22,
+      "linea_parada_id": 1,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 23,
+      "linea_parada_id": 1,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 24,
+      "linea_parada_id": 1,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 25,
+      "linea_parada_id": 1,
+      "hora": "18:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 26,
+      "linea_parada_id": 1,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 27,
+      "linea_parada_id": 1,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 28,
+      "linea_parada_id": 1,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 29,
+      "linea_parada_id": 1,
+      "hora": "20:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 30,
+      "linea_parada_id": 1,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 31,
+      "linea_parada_id": 1,
+      "hora": "21:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 32,
+      "linea_parada_id": 1,
+      "hora": "07:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 33,
+      "linea_parada_id": 1,
+      "hora": "07:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 34,
+      "linea_parada_id": 1,
+      "hora": "08:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 35,
+      "linea_parada_id": 1,
+      "hora": "09:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 36,
+      "linea_parada_id": 1,
+      "hora": "10:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 37,
+      "linea_parada_id": 1,
+      "hora": "10:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 38,
+      "linea_parada_id": 1,
+      "hora": "11:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 39,
+      "linea_parada_id": 1,
+      "hora": "12:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 40,
+      "linea_parada_id": 1,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 41,
+      "linea_parada_id": 1,
+      "hora": "13:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 42,
+      "linea_parada_id": 1,
+      "hora": "14:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 43,
+      "linea_parada_id": 1,
+      "hora": "15:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 44,
+      "linea_parada_id": 1,
+      "hora": "16:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 45,
+      "linea_parada_id": 1,
+      "hora": "16:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 46,
+      "linea_parada_id": 1,
+      "hora": "17:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 47,
+      "linea_parada_id": 1,
+      "hora": "18:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 48,
+      "linea_parada_id": 1,
+      "hora": "19:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 49,
+      "linea_parada_id": 1,
+      "hora": "19:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 50,
+      "linea_parada_id": 1,
+      "hora": "20:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 51,
+      "linea_parada_id": 1,
+      "hora": "08:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 52,
+      "linea_parada_id": 1,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 53,
+      "linea_parada_id": 1,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 54,
+      "linea_parada_id": 1,
+      "hora": "11:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 55,
+      "linea_parada_id": 1,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 56,
+      "linea_parada_id": 1,
+      "hora": "13:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 57,
+      "linea_parada_id": 1,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 58,
+      "linea_parada_id": 1,
+      "hora": "15:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 59,
+      "linea_parada_id": 1,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 60,
+      "linea_parada_id": 1,
+      "hora": "17:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 61,
+      "linea_parada_id": 1,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 62,
+      "linea_parada_id": 1,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 63,
+      "linea_parada_id": 1,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 64,
+      "linea_parada_id": 8,
+      "hora": "06:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 65,
+      "linea_parada_id": 8,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 66,
+      "linea_parada_id": 8,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 67,
+      "linea_parada_id": 8,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 68,
+      "linea_parada_id": 8,
+      "hora": "08:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 69,
+      "linea_parada_id": 8,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 70,
+      "linea_parada_id": 8,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 71,
+      "linea_parada_id": 8,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 72,
+      "linea_parada_id": 8,
+      "hora": "10:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 73,
+      "linea_parada_id": 8,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 74,
+      "linea_parada_id": 8,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 75,
+      "linea_parada_id": 8,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 76,
+      "linea_parada_id": 8,
+      "hora": "12:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 77,
+      "linea_parada_id": 8,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 78,
+      "linea_parada_id": 8,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 79,
+      "linea_parada_id": 8,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 80,
+      "linea_parada_id": 8,
+      "hora": "14:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 81,
+      "linea_parada_id": 8,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 82,
+      "linea_parada_id": 8,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 83,
+      "linea_parada_id": 8,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 84,
+      "linea_parada_id": 8,
+      "hora": "16:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 85,
+      "linea_parada_id": 8,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 86,
+      "linea_parada_id": 8,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 87,
+      "linea_parada_id": 8,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 88,
+      "linea_parada_id": 8,
+      "hora": "18:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 89,
+      "linea_parada_id": 8,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 90,
+      "linea_parada_id": 8,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 91,
+      "linea_parada_id": 8,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 92,
+      "linea_parada_id": 8,
+      "hora": "20:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 93,
+      "linea_parada_id": 8,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 94,
+      "linea_parada_id": 8,
+      "hora": "21:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 95,
+      "linea_parada_id": 8,
+      "hora": "07:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 96,
+      "linea_parada_id": 8,
+      "hora": "07:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 97,
+      "linea_parada_id": 8,
+      "hora": "08:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 98,
+      "linea_parada_id": 8,
+      "hora": "09:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 99,
+      "linea_parada_id": 8,
+      "hora": "10:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 100,
+      "linea_parada_id": 8,
+      "hora": "10:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 101,
+      "linea_parada_id": 8,
+      "hora": "11:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 102,
+      "linea_parada_id": 8,
+      "hora": "12:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 103,
+      "linea_parada_id": 8,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 104,
+      "linea_parada_id": 8,
+      "hora": "13:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 105,
+      "linea_parada_id": 8,
+      "hora": "14:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 106,
+      "linea_parada_id": 8,
+      "hora": "15:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 107,
+      "linea_parada_id": 8,
+      "hora": "16:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 108,
+      "linea_parada_id": 8,
+      "hora": "16:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 109,
+      "linea_parada_id": 8,
+      "hora": "17:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 110,
+      "linea_parada_id": 8,
+      "hora": "18:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 111,
+      "linea_parada_id": 8,
+      "hora": "19:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 112,
+      "linea_parada_id": 8,
+      "hora": "19:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 113,
+      "linea_parada_id": 8,
+      "hora": "20:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 114,
+      "linea_parada_id": 8,
+      "hora": "08:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 115,
+      "linea_parada_id": 8,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 116,
+      "linea_parada_id": 8,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 117,
+      "linea_parada_id": 8,
+      "hora": "11:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 118,
+      "linea_parada_id": 8,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 119,
+      "linea_parada_id": 8,
+      "hora": "13:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 120,
+      "linea_parada_id": 8,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 121,
+      "linea_parada_id": 8,
+      "hora": "15:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 122,
+      "linea_parada_id": 8,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 123,
+      "linea_parada_id": 8,
+      "hora": "17:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 124,
+      "linea_parada_id": 8,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 125,
+      "linea_parada_id": 8,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 126,
+      "linea_parada_id": 8,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 127,
+      "linea_parada_id": 14,
+      "hora": "06:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 128,
+      "linea_parada_id": 14,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 129,
+      "linea_parada_id": 14,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 130,
+      "linea_parada_id": 14,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 131,
+      "linea_parada_id": 14,
+      "hora": "08:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 132,
+      "linea_parada_id": 14,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 133,
+      "linea_parada_id": 14,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 134,
+      "linea_parada_id": 14,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 135,
+      "linea_parada_id": 14,
+      "hora": "10:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 136,
+      "linea_parada_id": 14,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 137,
+      "linea_parada_id": 14,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 138,
+      "linea_parada_id": 14,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 139,
+      "linea_parada_id": 14,
+      "hora": "12:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 140,
+      "linea_parada_id": 14,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 141,
+      "linea_parada_id": 14,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 142,
+      "linea_parada_id": 14,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 143,
+      "linea_parada_id": 14,
+      "hora": "14:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 144,
+      "linea_parada_id": 14,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 145,
+      "linea_parada_id": 14,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 146,
+      "linea_parada_id": 14,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 147,
+      "linea_parada_id": 14,
+      "hora": "16:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 148,
+      "linea_parada_id": 14,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 149,
+      "linea_parada_id": 14,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 150,
+      "linea_parada_id": 14,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 151,
+      "linea_parada_id": 14,
+      "hora": "18:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 152,
+      "linea_parada_id": 14,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 153,
+      "linea_parada_id": 14,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 154,
+      "linea_parada_id": 14,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 155,
+      "linea_parada_id": 14,
+      "hora": "20:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 156,
+      "linea_parada_id": 14,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 157,
+      "linea_parada_id": 14,
+      "hora": "21:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 158,
+      "linea_parada_id": 14,
+      "hora": "07:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 159,
+      "linea_parada_id": 14,
+      "hora": "07:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 160,
+      "linea_parada_id": 14,
+      "hora": "08:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 161,
+      "linea_parada_id": 14,
+      "hora": "09:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 162,
+      "linea_parada_id": 14,
+      "hora": "10:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 163,
+      "linea_parada_id": 14,
+      "hora": "10:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 164,
+      "linea_parada_id": 14,
+      "hora": "11:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 165,
+      "linea_parada_id": 14,
+      "hora": "12:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 166,
+      "linea_parada_id": 14,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 167,
+      "linea_parada_id": 14,
+      "hora": "13:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 168,
+      "linea_parada_id": 14,
+      "hora": "14:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 169,
+      "linea_parada_id": 14,
+      "hora": "15:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 170,
+      "linea_parada_id": 14,
+      "hora": "16:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 171,
+      "linea_parada_id": 14,
+      "hora": "16:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 172,
+      "linea_parada_id": 14,
+      "hora": "17:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 173,
+      "linea_parada_id": 14,
+      "hora": "18:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 174,
+      "linea_parada_id": 14,
+      "hora": "19:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 175,
+      "linea_parada_id": 14,
+      "hora": "19:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 176,
+      "linea_parada_id": 14,
+      "hora": "20:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 177,
+      "linea_parada_id": 14,
+      "hora": "08:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 178,
+      "linea_parada_id": 14,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 179,
+      "linea_parada_id": 14,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 180,
+      "linea_parada_id": 14,
+      "hora": "11:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 181,
+      "linea_parada_id": 14,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 182,
+      "linea_parada_id": 14,
+      "hora": "13:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 183,
+      "linea_parada_id": 14,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 184,
+      "linea_parada_id": 14,
+      "hora": "15:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 185,
+      "linea_parada_id": 14,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 186,
+      "linea_parada_id": 14,
+      "hora": "17:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 187,
+      "linea_parada_id": 14,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 188,
+      "linea_parada_id": 14,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 189,
+      "linea_parada_id": 14,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 190,
+      "linea_parada_id": 21,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 191,
+      "linea_parada_id": 21,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 192,
+      "linea_parada_id": 21,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 193,
+      "linea_parada_id": 21,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 194,
+      "linea_parada_id": 21,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 195,
+      "linea_parada_id": 21,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 196,
+      "linea_parada_id": 21,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 197,
+      "linea_parada_id": 21,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 198,
+      "linea_parada_id": 21,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 199,
+      "linea_parada_id": 21,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 200,
+      "linea_parada_id": 21,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 201,
+      "linea_parada_id": 21,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 202,
+      "linea_parada_id": 21,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 203,
+      "linea_parada_id": 21,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 204,
+      "linea_parada_id": 21,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 205,
+      "linea_parada_id": 21,
+      "hora": "07:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 206,
+      "linea_parada_id": 21,
+      "hora": "09:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 207,
+      "linea_parada_id": 21,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 208,
+      "linea_parada_id": 21,
+      "hora": "12:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 209,
+      "linea_parada_id": 21,
+      "hora": "13:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 210,
+      "linea_parada_id": 21,
+      "hora": "15:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 211,
+      "linea_parada_id": 21,
+      "hora": "16:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 212,
+      "linea_parada_id": 21,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 213,
+      "linea_parada_id": 21,
+      "hora": "19:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 214,
+      "linea_parada_id": 21,
+      "hora": "08:30",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 215,
+      "linea_parada_id": 21,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 216,
+      "linea_parada_id": 21,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 217,
+      "linea_parada_id": 21,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 218,
+      "linea_parada_id": 21,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 219,
+      "linea_parada_id": 21,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 220,
+      "linea_parada_id": 21,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 221,
+      "linea_parada_id": 27,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 222,
+      "linea_parada_id": 27,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 223,
+      "linea_parada_id": 27,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 224,
+      "linea_parada_id": 27,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 225,
+      "linea_parada_id": 27,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 226,
+      "linea_parada_id": 27,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 227,
+      "linea_parada_id": 27,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 228,
+      "linea_parada_id": 27,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 229,
+      "linea_parada_id": 27,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 230,
+      "linea_parada_id": 27,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 231,
+      "linea_parada_id": 27,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 232,
+      "linea_parada_id": 27,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 233,
+      "linea_parada_id": 27,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 234,
+      "linea_parada_id": 27,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 235,
+      "linea_parada_id": 27,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 236,
+      "linea_parada_id": 27,
+      "hora": "07:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 237,
+      "linea_parada_id": 27,
+      "hora": "09:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 238,
+      "linea_parada_id": 27,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 239,
+      "linea_parada_id": 27,
+      "hora": "12:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 240,
+      "linea_parada_id": 27,
+      "hora": "13:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 241,
+      "linea_parada_id": 27,
+      "hora": "15:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 242,
+      "linea_parada_id": 27,
+      "hora": "16:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 243,
+      "linea_parada_id": 27,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 244,
+      "linea_parada_id": 27,
+      "hora": "19:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 245,
+      "linea_parada_id": 27,
+      "hora": "08:30",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 246,
+      "linea_parada_id": 27,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 247,
+      "linea_parada_id": 27,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 248,
+      "linea_parada_id": 27,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 249,
+      "linea_parada_id": 27,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 250,
+      "linea_parada_id": 27,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 251,
+      "linea_parada_id": 27,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 252,
+      "linea_parada_id": 32,
+      "hora": "06:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 253,
+      "linea_parada_id": 32,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 254,
+      "linea_parada_id": 32,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 255,
+      "linea_parada_id": 32,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 256,
+      "linea_parada_id": 32,
+      "hora": "08:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 257,
+      "linea_parada_id": 32,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 258,
+      "linea_parada_id": 32,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 259,
+      "linea_parada_id": 32,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 260,
+      "linea_parada_id": 32,
+      "hora": "10:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 261,
+      "linea_parada_id": 32,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 262,
+      "linea_parada_id": 32,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 263,
+      "linea_parada_id": 32,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 264,
+      "linea_parada_id": 32,
+      "hora": "12:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 265,
+      "linea_parada_id": 32,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 266,
+      "linea_parada_id": 32,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 267,
+      "linea_parada_id": 32,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 268,
+      "linea_parada_id": 32,
+      "hora": "14:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 269,
+      "linea_parada_id": 32,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 270,
+      "linea_parada_id": 32,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 271,
+      "linea_parada_id": 32,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 272,
+      "linea_parada_id": 32,
+      "hora": "16:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 273,
+      "linea_parada_id": 32,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 274,
+      "linea_parada_id": 32,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 275,
+      "linea_parada_id": 32,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 276,
+      "linea_parada_id": 32,
+      "hora": "18:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 277,
+      "linea_parada_id": 32,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 278,
+      "linea_parada_id": 32,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 279,
+      "linea_parada_id": 32,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 280,
+      "linea_parada_id": 32,
+      "hora": "20:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 281,
+      "linea_parada_id": 32,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 282,
+      "linea_parada_id": 32,
+      "hora": "21:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 283,
+      "linea_parada_id": 32,
+      "hora": "07:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 284,
+      "linea_parada_id": 32,
+      "hora": "07:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 285,
+      "linea_parada_id": 32,
+      "hora": "08:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 286,
+      "linea_parada_id": 32,
+      "hora": "09:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 287,
+      "linea_parada_id": 32,
+      "hora": "10:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 288,
+      "linea_parada_id": 32,
+      "hora": "10:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 289,
+      "linea_parada_id": 32,
+      "hora": "11:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 290,
+      "linea_parada_id": 32,
+      "hora": "12:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 291,
+      "linea_parada_id": 32,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 292,
+      "linea_parada_id": 32,
+      "hora": "13:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 293,
+      "linea_parada_id": 32,
+      "hora": "14:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 294,
+      "linea_parada_id": 32,
+      "hora": "15:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 295,
+      "linea_parada_id": 32,
+      "hora": "16:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 296,
+      "linea_parada_id": 32,
+      "hora": "16:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 297,
+      "linea_parada_id": 32,
+      "hora": "17:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 298,
+      "linea_parada_id": 32,
+      "hora": "18:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 299,
+      "linea_parada_id": 32,
+      "hora": "19:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 300,
+      "linea_parada_id": 32,
+      "hora": "19:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 301,
+      "linea_parada_id": 32,
+      "hora": "20:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 302,
+      "linea_parada_id": 32,
+      "hora": "08:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 303,
+      "linea_parada_id": 32,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 304,
+      "linea_parada_id": 32,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 305,
+      "linea_parada_id": 32,
+      "hora": "11:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 306,
+      "linea_parada_id": 32,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 307,
+      "linea_parada_id": 32,
+      "hora": "13:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 308,
+      "linea_parada_id": 32,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 309,
+      "linea_parada_id": 32,
+      "hora": "15:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 310,
+      "linea_parada_id": 32,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 311,
+      "linea_parada_id": 32,
+      "hora": "17:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 312,
+      "linea_parada_id": 32,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 313,
+      "linea_parada_id": 32,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 314,
+      "linea_parada_id": 32,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 315,
+      "linea_parada_id": 38,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 316,
+      "linea_parada_id": 38,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 317,
+      "linea_parada_id": 38,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 318,
+      "linea_parada_id": 38,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 319,
+      "linea_parada_id": 38,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 320,
+      "linea_parada_id": 38,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 321,
+      "linea_parada_id": 38,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 322,
+      "linea_parada_id": 38,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 323,
+      "linea_parada_id": 38,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 324,
+      "linea_parada_id": 38,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 325,
+      "linea_parada_id": 38,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 326,
+      "linea_parada_id": 38,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 327,
+      "linea_parada_id": 38,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 328,
+      "linea_parada_id": 38,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 329,
+      "linea_parada_id": 38,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 330,
+      "linea_parada_id": 38,
+      "hora": "07:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 331,
+      "linea_parada_id": 38,
+      "hora": "09:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 332,
+      "linea_parada_id": 38,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 333,
+      "linea_parada_id": 38,
+      "hora": "12:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 334,
+      "linea_parada_id": 38,
+      "hora": "13:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 335,
+      "linea_parada_id": 38,
+      "hora": "15:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 336,
+      "linea_parada_id": 38,
+      "hora": "16:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 337,
+      "linea_parada_id": 38,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 338,
+      "linea_parada_id": 38,
+      "hora": "19:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 339,
+      "linea_parada_id": 38,
+      "hora": "08:30",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 340,
+      "linea_parada_id": 38,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 341,
+      "linea_parada_id": 38,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 342,
+      "linea_parada_id": 38,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 343,
+      "linea_parada_id": 38,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 344,
+      "linea_parada_id": 38,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 345,
+      "linea_parada_id": 38,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 346,
+      "linea_parada_id": 43,
+      "hora": "06:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 347,
+      "linea_parada_id": 43,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 348,
+      "linea_parada_id": 43,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 349,
+      "linea_parada_id": 43,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 350,
+      "linea_parada_id": 43,
+      "hora": "08:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 351,
+      "linea_parada_id": 43,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 352,
+      "linea_parada_id": 43,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 353,
+      "linea_parada_id": 43,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 354,
+      "linea_parada_id": 43,
+      "hora": "10:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 355,
+      "linea_parada_id": 43,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 356,
+      "linea_parada_id": 43,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 357,
+      "linea_parada_id": 43,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 358,
+      "linea_parada_id": 43,
+      "hora": "12:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 359,
+      "linea_parada_id": 43,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 360,
+      "linea_parada_id": 43,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 361,
+      "linea_parada_id": 43,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 362,
+      "linea_parada_id": 43,
+      "hora": "14:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 363,
+      "linea_parada_id": 43,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 364,
+      "linea_parada_id": 43,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 365,
+      "linea_parada_id": 43,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 366,
+      "linea_parada_id": 43,
+      "hora": "16:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 367,
+      "linea_parada_id": 43,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 368,
+      "linea_parada_id": 43,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 369,
+      "linea_parada_id": 43,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 370,
+      "linea_parada_id": 43,
+      "hora": "18:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 371,
+      "linea_parada_id": 43,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 372,
+      "linea_parada_id": 43,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 373,
+      "linea_parada_id": 43,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 374,
+      "linea_parada_id": 43,
+      "hora": "20:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 375,
+      "linea_parada_id": 43,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 376,
+      "linea_parada_id": 43,
+      "hora": "21:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 377,
+      "linea_parada_id": 43,
+      "hora": "07:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 378,
+      "linea_parada_id": 43,
+      "hora": "07:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 379,
+      "linea_parada_id": 43,
+      "hora": "08:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 380,
+      "linea_parada_id": 43,
+      "hora": "09:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 381,
+      "linea_parada_id": 43,
+      "hora": "10:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 382,
+      "linea_parada_id": 43,
+      "hora": "10:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 383,
+      "linea_parada_id": 43,
+      "hora": "11:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 384,
+      "linea_parada_id": 43,
+      "hora": "12:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 385,
+      "linea_parada_id": 43,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 386,
+      "linea_parada_id": 43,
+      "hora": "13:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 387,
+      "linea_parada_id": 43,
+      "hora": "14:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 388,
+      "linea_parada_id": 43,
+      "hora": "15:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 389,
+      "linea_parada_id": 43,
+      "hora": "16:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 390,
+      "linea_parada_id": 43,
+      "hora": "16:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 391,
+      "linea_parada_id": 43,
+      "hora": "17:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 392,
+      "linea_parada_id": 43,
+      "hora": "18:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 393,
+      "linea_parada_id": 43,
+      "hora": "19:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 394,
+      "linea_parada_id": 43,
+      "hora": "19:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 395,
+      "linea_parada_id": 43,
+      "hora": "20:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 396,
+      "linea_parada_id": 43,
+      "hora": "08:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 397,
+      "linea_parada_id": 43,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 398,
+      "linea_parada_id": 43,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 399,
+      "linea_parada_id": 43,
+      "hora": "11:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 400,
+      "linea_parada_id": 43,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 401,
+      "linea_parada_id": 43,
+      "hora": "13:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 402,
+      "linea_parada_id": 43,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 403,
+      "linea_parada_id": 43,
+      "hora": "15:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 404,
+      "linea_parada_id": 43,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 405,
+      "linea_parada_id": 43,
+      "hora": "17:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 406,
+      "linea_parada_id": 43,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 407,
+      "linea_parada_id": 43,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 408,
+      "linea_parada_id": 43,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 409,
+      "linea_parada_id": 49,
+      "hora": "06:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 410,
+      "linea_parada_id": 49,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 411,
+      "linea_parada_id": 49,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 412,
+      "linea_parada_id": 49,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 413,
+      "linea_parada_id": 49,
+      "hora": "08:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 414,
+      "linea_parada_id": 49,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 415,
+      "linea_parada_id": 49,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 416,
+      "linea_parada_id": 49,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 417,
+      "linea_parada_id": 49,
+      "hora": "10:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 418,
+      "linea_parada_id": 49,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 419,
+      "linea_parada_id": 49,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 420,
+      "linea_parada_id": 49,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 421,
+      "linea_parada_id": 49,
+      "hora": "12:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 422,
+      "linea_parada_id": 49,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 423,
+      "linea_parada_id": 49,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 424,
+      "linea_parada_id": 49,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 425,
+      "linea_parada_id": 49,
+      "hora": "14:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 426,
+      "linea_parada_id": 49,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 427,
+      "linea_parada_id": 49,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 428,
+      "linea_parada_id": 49,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 429,
+      "linea_parada_id": 49,
+      "hora": "16:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 430,
+      "linea_parada_id": 49,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 431,
+      "linea_parada_id": 49,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 432,
+      "linea_parada_id": 49,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 433,
+      "linea_parada_id": 49,
+      "hora": "18:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 434,
+      "linea_parada_id": 49,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 435,
+      "linea_parada_id": 49,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 436,
+      "linea_parada_id": 49,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 437,
+      "linea_parada_id": 49,
+      "hora": "20:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 438,
+      "linea_parada_id": 49,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 439,
+      "linea_parada_id": 49,
+      "hora": "21:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 440,
+      "linea_parada_id": 49,
+      "hora": "07:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 441,
+      "linea_parada_id": 49,
+      "hora": "07:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 442,
+      "linea_parada_id": 49,
+      "hora": "08:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 443,
+      "linea_parada_id": 49,
+      "hora": "09:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 444,
+      "linea_parada_id": 49,
+      "hora": "10:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 445,
+      "linea_parada_id": 49,
+      "hora": "10:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 446,
+      "linea_parada_id": 49,
+      "hora": "11:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 447,
+      "linea_parada_id": 49,
+      "hora": "12:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 448,
+      "linea_parada_id": 49,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 449,
+      "linea_parada_id": 49,
+      "hora": "13:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 450,
+      "linea_parada_id": 49,
+      "hora": "14:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 451,
+      "linea_parada_id": 49,
+      "hora": "15:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 452,
+      "linea_parada_id": 49,
+      "hora": "16:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 453,
+      "linea_parada_id": 49,
+      "hora": "16:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 454,
+      "linea_parada_id": 49,
+      "hora": "17:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 455,
+      "linea_parada_id": 49,
+      "hora": "18:15",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 456,
+      "linea_parada_id": 49,
+      "hora": "19:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 457,
+      "linea_parada_id": 49,
+      "hora": "19:45",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 458,
+      "linea_parada_id": 49,
+      "hora": "20:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 459,
+      "linea_parada_id": 49,
+      "hora": "08:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 460,
+      "linea_parada_id": 49,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 461,
+      "linea_parada_id": 49,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 462,
+      "linea_parada_id": 49,
+      "hora": "11:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 463,
+      "linea_parada_id": 49,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 464,
+      "linea_parada_id": 49,
+      "hora": "13:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 465,
+      "linea_parada_id": 49,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 466,
+      "linea_parada_id": 49,
+      "hora": "15:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 467,
+      "linea_parada_id": 49,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 468,
+      "linea_parada_id": 49,
+      "hora": "17:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 469,
+      "linea_parada_id": 49,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 470,
+      "linea_parada_id": 49,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 471,
+      "linea_parada_id": 49,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 472,
+      "linea_parada_id": 55,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 473,
+      "linea_parada_id": 55,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 474,
+      "linea_parada_id": 55,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 475,
+      "linea_parada_id": 55,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 476,
+      "linea_parada_id": 55,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 477,
+      "linea_parada_id": 55,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 478,
+      "linea_parada_id": 55,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 479,
+      "linea_parada_id": 55,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 480,
+      "linea_parada_id": 55,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 481,
+      "linea_parada_id": 55,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 482,
+      "linea_parada_id": 55,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 483,
+      "linea_parada_id": 55,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 484,
+      "linea_parada_id": 55,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 485,
+      "linea_parada_id": 55,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 486,
+      "linea_parada_id": 55,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 487,
+      "linea_parada_id": 55,
+      "hora": "07:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 488,
+      "linea_parada_id": 55,
+      "hora": "09:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 489,
+      "linea_parada_id": 55,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 490,
+      "linea_parada_id": 55,
+      "hora": "12:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 491,
+      "linea_parada_id": 55,
+      "hora": "13:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 492,
+      "linea_parada_id": 55,
+      "hora": "15:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 493,
+      "linea_parada_id": 55,
+      "hora": "16:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 494,
+      "linea_parada_id": 55,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 495,
+      "linea_parada_id": 55,
+      "hora": "19:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 496,
+      "linea_parada_id": 55,
+      "hora": "08:30",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 497,
+      "linea_parada_id": 55,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 498,
+      "linea_parada_id": 55,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 499,
+      "linea_parada_id": 55,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 500,
+      "linea_parada_id": 55,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 501,
+      "linea_parada_id": 55,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 502,
+      "linea_parada_id": 55,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 503,
+      "linea_parada_id": 60,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 504,
+      "linea_parada_id": 60,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 505,
+      "linea_parada_id": 60,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 506,
+      "linea_parada_id": 60,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 507,
+      "linea_parada_id": 60,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 508,
+      "linea_parada_id": 60,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 509,
+      "linea_parada_id": 60,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 510,
+      "linea_parada_id": 60,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 511,
+      "linea_parada_id": 60,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 512,
+      "linea_parada_id": 60,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 513,
+      "linea_parada_id": 60,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 514,
+      "linea_parada_id": 60,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 515,
+      "linea_parada_id": 60,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 516,
+      "linea_parada_id": 60,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 517,
+      "linea_parada_id": 60,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 518,
+      "linea_parada_id": 60,
+      "hora": "07:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 519,
+      "linea_parada_id": 60,
+      "hora": "09:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 520,
+      "linea_parada_id": 60,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 521,
+      "linea_parada_id": 60,
+      "hora": "12:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 522,
+      "linea_parada_id": 60,
+      "hora": "13:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 523,
+      "linea_parada_id": 60,
+      "hora": "15:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 524,
+      "linea_parada_id": 60,
+      "hora": "16:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 525,
+      "linea_parada_id": 60,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 526,
+      "linea_parada_id": 60,
+      "hora": "19:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 527,
+      "linea_parada_id": 60,
+      "hora": "08:30",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 528,
+      "linea_parada_id": 60,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 529,
+      "linea_parada_id": 60,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 530,
+      "linea_parada_id": 60,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 531,
+      "linea_parada_id": 60,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 532,
+      "linea_parada_id": 60,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 533,
+      "linea_parada_id": 60,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 534,
+      "linea_parada_id": 65,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 535,
+      "linea_parada_id": 65,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 536,
+      "linea_parada_id": 65,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 537,
+      "linea_parada_id": 65,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 538,
+      "linea_parada_id": 65,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 539,
+      "linea_parada_id": 65,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 540,
+      "linea_parada_id": 65,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 541,
+      "linea_parada_id": 65,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 542,
+      "linea_parada_id": 65,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 543,
+      "linea_parada_id": 65,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 544,
+      "linea_parada_id": 65,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 545,
+      "linea_parada_id": 65,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 546,
+      "linea_parada_id": 65,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 547,
+      "linea_parada_id": 65,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 548,
+      "linea_parada_id": 65,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 549,
+      "linea_parada_id": 65,
+      "hora": "07:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 550,
+      "linea_parada_id": 65,
+      "hora": "09:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 551,
+      "linea_parada_id": 65,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 552,
+      "linea_parada_id": 65,
+      "hora": "12:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 553,
+      "linea_parada_id": 65,
+      "hora": "13:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 554,
+      "linea_parada_id": 65,
+      "hora": "15:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 555,
+      "linea_parada_id": 65,
+      "hora": "16:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 556,
+      "linea_parada_id": 65,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 557,
+      "linea_parada_id": 65,
+      "hora": "19:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 558,
+      "linea_parada_id": 65,
+      "hora": "08:30",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 559,
+      "linea_parada_id": 65,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 560,
+      "linea_parada_id": 65,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 561,
+      "linea_parada_id": 65,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 562,
+      "linea_parada_id": 65,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 563,
+      "linea_parada_id": 65,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 564,
+      "linea_parada_id": 65,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 565,
+      "linea_parada_id": 69,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 566,
+      "linea_parada_id": 69,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 567,
+      "linea_parada_id": 69,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 568,
+      "linea_parada_id": 69,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 569,
+      "linea_parada_id": 69,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 570,
+      "linea_parada_id": 69,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 571,
+      "linea_parada_id": 69,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 572,
+      "linea_parada_id": 69,
+      "hora": "08:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 573,
+      "linea_parada_id": 69,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 574,
+      "linea_parada_id": 69,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 575,
+      "linea_parada_id": 69,
+      "hora": "15:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 576,
+      "linea_parada_id": 69,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 577,
+      "linea_parada_id": 69,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 578,
+      "linea_parada_id": 69,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 579,
+      "linea_parada_id": 69,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 580,
+      "linea_parada_id": 69,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 581,
+      "linea_parada_id": 75,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 582,
+      "linea_parada_id": 75,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 583,
+      "linea_parada_id": 75,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 584,
+      "linea_parada_id": 75,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 585,
+      "linea_parada_id": 75,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 586,
+      "linea_parada_id": 75,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 587,
+      "linea_parada_id": 75,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 588,
+      "linea_parada_id": 75,
+      "hora": "08:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 589,
+      "linea_parada_id": 75,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 590,
+      "linea_parada_id": 75,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 591,
+      "linea_parada_id": 75,
+      "hora": "15:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 592,
+      "linea_parada_id": 75,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 593,
+      "linea_parada_id": 75,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 594,
+      "linea_parada_id": 75,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 595,
+      "linea_parada_id": 75,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 596,
+      "linea_parada_id": 75,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 597,
+      "linea_parada_id": 81,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 598,
+      "linea_parada_id": 81,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 599,
+      "linea_parada_id": 81,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 600,
+      "linea_parada_id": 81,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 601,
+      "linea_parada_id": 81,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 602,
+      "linea_parada_id": 81,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 603,
+      "linea_parada_id": 81,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 604,
+      "linea_parada_id": 81,
+      "hora": "08:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 605,
+      "linea_parada_id": 81,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 606,
+      "linea_parada_id": 81,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 607,
+      "linea_parada_id": 81,
+      "hora": "15:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 608,
+      "linea_parada_id": 81,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 609,
+      "linea_parada_id": 81,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 610,
+      "linea_parada_id": 81,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 611,
+      "linea_parada_id": 81,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 612,
+      "linea_parada_id": 81,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 613,
+      "linea_parada_id": 86,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 614,
+      "linea_parada_id": 86,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 615,
+      "linea_parada_id": 86,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 616,
+      "linea_parada_id": 86,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 617,
+      "linea_parada_id": 86,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 618,
+      "linea_parada_id": 86,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 619,
+      "linea_parada_id": 86,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 620,
+      "linea_parada_id": 86,
+      "hora": "08:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 621,
+      "linea_parada_id": 86,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 622,
+      "linea_parada_id": 86,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 623,
+      "linea_parada_id": 86,
+      "hora": "15:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 624,
+      "linea_parada_id": 86,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 625,
+      "linea_parada_id": 86,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 626,
+      "linea_parada_id": 86,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 627,
+      "linea_parada_id": 86,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 628,
+      "linea_parada_id": 86,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 629,
+      "linea_parada_id": 91,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 630,
+      "linea_parada_id": 91,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 631,
+      "linea_parada_id": 91,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 632,
+      "linea_parada_id": 91,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 633,
+      "linea_parada_id": 91,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 634,
+      "linea_parada_id": 91,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 635,
+      "linea_parada_id": 91,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 636,
+      "linea_parada_id": 91,
+      "hora": "08:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 637,
+      "linea_parada_id": 91,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 638,
+      "linea_parada_id": 91,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 639,
+      "linea_parada_id": 91,
+      "hora": "15:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 640,
+      "linea_parada_id": 91,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 641,
+      "linea_parada_id": 91,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 642,
+      "linea_parada_id": 91,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 643,
+      "linea_parada_id": 91,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 644,
+      "linea_parada_id": 91,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 645,
+      "linea_parada_id": 96,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 646,
+      "linea_parada_id": 96,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 647,
+      "linea_parada_id": 96,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 648,
+      "linea_parada_id": 96,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 649,
+      "linea_parada_id": 96,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 650,
+      "linea_parada_id": 96,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 651,
+      "linea_parada_id": 96,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 652,
+      "linea_parada_id": 96,
+      "hora": "08:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 653,
+      "linea_parada_id": 96,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 654,
+      "linea_parada_id": 96,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 655,
+      "linea_parada_id": 96,
+      "hora": "15:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 656,
+      "linea_parada_id": 96,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 657,
+      "linea_parada_id": 96,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 658,
+      "linea_parada_id": 96,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 659,
+      "linea_parada_id": 96,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 660,
+      "linea_parada_id": 96,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 661,
+      "linea_parada_id": 101,
+      "hora": "07:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 662,
+      "linea_parada_id": 101,
+      "hora": "09:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 663,
+      "linea_parada_id": 101,
+      "hora": "11:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 664,
+      "linea_parada_id": 101,
+      "hora": "13:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 665,
+      "linea_parada_id": 101,
+      "hora": "15:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 666,
+      "linea_parada_id": 101,
+      "hora": "17:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 667,
+      "linea_parada_id": 101,
+      "hora": "19:00",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 668,
+      "linea_parada_id": 101,
+      "hora": "08:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 669,
+      "linea_parada_id": 101,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 670,
+      "linea_parada_id": 101,
+      "hora": "13:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 671,
+      "linea_parada_id": 101,
+      "hora": "15:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 672,
+      "linea_parada_id": 101,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 673,
+      "linea_parada_id": 101,
+      "hora": "09:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 674,
+      "linea_parada_id": 101,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 675,
+      "linea_parada_id": 101,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 676,
+      "linea_parada_id": 101,
+      "hora": "19:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 677,
+      "linea_parada_id": 107,
+      "hora": "06:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 678,
+      "linea_parada_id": 107,
+      "hora": "07:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 679,
+      "linea_parada_id": 107,
+      "hora": "08:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 680,
+      "linea_parada_id": 107,
+      "hora": "09:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 681,
+      "linea_parada_id": 107,
+      "hora": "10:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 682,
+      "linea_parada_id": 107,
+      "hora": "11:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 683,
+      "linea_parada_id": 107,
+      "hora": "12:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 684,
+      "linea_parada_id": 107,
+      "hora": "13:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 685,
+      "linea_parada_id": 107,
+      "hora": "14:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 686,
+      "linea_parada_id": 107,
+      "hora": "15:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 687,
+      "linea_parada_id": 107,
+      "hora": "16:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 688,
+      "linea_parada_id": 107,
+      "hora": "17:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 689,
+      "linea_parada_id": 107,
+      "hora": "18:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 690,
+      "linea_parada_id": 107,
+      "hora": "19:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 691,
+      "linea_parada_id": 107,
+      "hora": "20:30",
+      "tipo_dia": "Habil"
+    },
+    {
+      "id": 692,
+      "linea_parada_id": 107,
+      "hora": "07:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 693,
+      "linea_parada_id": 107,
+      "hora": "09:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 694,
+      "linea_parada_id": 107,
+      "hora": "10:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 695,
+      "linea_parada_id": 107,
+      "hora": "12:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 696,
+      "linea_parada_id": 107,
+      "hora": "13:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 697,
+      "linea_parada_id": 107,
+      "hora": "15:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 698,
+      "linea_parada_id": 107,
+      "hora": "16:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 699,
+      "linea_parada_id": 107,
+      "hora": "18:00",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 700,
+      "linea_parada_id": 107,
+      "hora": "19:30",
+      "tipo_dia": "Sabado"
+    },
+    {
+      "id": 701,
+      "linea_parada_id": 107,
+      "hora": "08:30",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 702,
+      "linea_parada_id": 107,
+      "hora": "10:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 703,
+      "linea_parada_id": 107,
+      "hora": "12:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 704,
+      "linea_parada_id": 107,
+      "hora": "14:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 705,
+      "linea_parada_id": 107,
+      "hora": "16:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 706,
+      "linea_parada_id": 107,
+      "hora": "18:00",
+      "tipo_dia": "Domingo"
+    },
+    {
+      "id": 707,
+      "linea_parada_id": 107,
+      "hora": "20:00",
+      "tipo_dia": "Domingo"
+    }
+  ],
+  "rutas": [
+    {
+      "id": 1,
+      "origen": "San Rafael",
+      "destino": "Mendoza"
+    },
+    {
+      "id": 2,
+      "origen": "San Rafael",
+      "destino": "General Alvear"
+    },
+    {
+      "id": 3,
+      "origen": "San Rafael",
+      "destino": "Malargüe"
+    },
+    {
+      "id": 4,
+      "origen": "San Rafael",
+      "destino": "San Carlos"
+    },
+    {
+      "id": 5,
+      "origen": "San Rafael",
+      "destino": "Tunuyán"
+    },
+    {
+      "id": 6,
+      "origen": "Mendoza",
+      "destino": "San Rafael"
+    },
+    {
+      "id": 7,
+      "origen": "General Alvear",
+      "destino": "San Rafael"
+    },
+    {
+      "id": 8,
+      "origen": "Malargüe",
+      "destino": "San Rafael"
+    }
+  ],
+  "viajes": [
+    {
+      "id": 1,
+      "ruta_id": 1,
+      "empresa": "Iselin S.R.L.",
+      "hora_salida": "07:00",
+      "hora_llegada": "09:30",
+      "costo_base": 2500.0
+    },
+    {
+      "id": 2,
+      "ruta_id": 1,
+      "empresa": "Iselin S.R.L.",
+      "hora_salida": "14:00",
+      "hora_llegada": "16:30",
+      "costo_base": 2500.0
+    },
+    {
+      "id": 3,
+      "ruta_id": 1,
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "hora_salida": "10:30",
+      "hora_llegada": "13:00",
+      "costo_base": 2600.0
+    },
+    {
+      "id": 4,
+      "ruta_id": 2,
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "hora_salida": "08:00",
+      "hora_llegada": "09:15",
+      "costo_base": 1800.0
+    },
+    {
+      "id": 5,
+      "ruta_id": 3,
+      "empresa": "Iselin S.R.L.",
+      "hora_salida": "06:30",
+      "hora_llegada": "10:00",
+      "costo_base": 3200.0
+    },
+    {
+      "id": 6,
+      "ruta_id": 6,
+      "empresa": "Iselin S.R.L.",
+      "hora_salida": "17:00",
+      "hora_llegada": "19:30",
+      "costo_base": 2500.0
+    },
+    {
+      "id": 7,
+      "ruta_id": 7,
+      "empresa": "A. Buttini e Hijos S.R.L.",
+      "hora_salida": "16:30",
+      "hora_llegada": "17:45",
+      "costo_base": 1800.0
+    }
+  ],
+  "metadata": {
+    "fecha_generacion": "2025-07-22T21:10:44.891600",
+    "version": "1.0",
+    "descripcion": "Datos completos del sistema de transporte de San Rafael",
+    "total_registros": {
+      "empresas": 2,
+      "paradas": 42,
+      "lineas": 20,
+      "linea_paradas": 111,
+      "horarios": 707,
+      "rutas": 8,
+      "viajes": 7
+    }
+  }
+}
