@@ -23,6 +23,4 @@ node_modules/
 
 # Otros
 *.tmp
-
-# Carpeta de migraciones
-migrations/
+backups/

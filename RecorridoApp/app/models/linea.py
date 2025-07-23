@@ -7,7 +7,7 @@ class Linea(db.Model):
     id: int = field(init=False)
     codigo: str = field(init=False)
     nombre: str = field(init=False)
-    empresa_id: str = field(init=False)
+    empresa_id: int = field(init=False)
     frecuencia: int = field(init=False)
 
     __tablename__ = "linea"
@@ -18,4 +18,4 @@ class Linea(db.Model):
     frecuencia = db.Column(db.Integer, nullable=False)
 
     def __repr__(self):
-        return f"<Linea(id={self.id}, codigo='{self.codigo}', nombre='{self.nombre}', tipo='{self.tipo}', frecuencia={self.frecuencia})>" 
+        return f"<Linea(id={self.id}, codigo='{self.codigo}', nombre='{self.nombre}', empresa_id={self.empresa_id}, frecuencia={self.frecuencia})>" 
