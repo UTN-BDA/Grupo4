@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import DatasheetView from './screens/DatasheetView';
+import ViajesView from './screens/ViajesView';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <DatasheetView />
+      <ViajesView/>
     </View>
   );
 }

@@ -10,7 +10,6 @@ const origen = 'San Rafael';
 const destino = 'Mendoza Capital';
 const API_URL = `http://localhost:5000//api/v1/viajes?origen=${origen}&destino=${destino}`;
 
-
 /**
  * Función asíncrona para probar la conexión con el backend de Flask.
  */

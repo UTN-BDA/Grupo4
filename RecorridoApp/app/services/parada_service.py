@@ -4,7 +4,7 @@ from app.models.linea import Linea
 from app.models.empresa import Empresa
 from app.models.horario import Horario
 from app import db
-from datetime import datetime, time
+from datetime import datetime
 from sqlalchemy import and_
 
 class ParadaService:

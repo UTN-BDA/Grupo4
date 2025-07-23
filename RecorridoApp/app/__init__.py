@@ -42,9 +42,10 @@ def create_app() -> Flask:
     from .models.viaje import Viaje
 
     # Registrar blueprints
-    from app.controllers import viaje_bp
-    from app.controllers import linea_bp
-    from app.controllers import parada_bp
+    from app.controllers.viaje_controller import viaje_bp
+    from app.controllers.linea_controller import linea_bp
+    from app.controllers.parada_controller import parada_bp
+
 
     app.register_blueprint(viaje_bp, url_prefix='/api/v1')
     app.register_blueprint(linea_bp, url_prefix='/api/v1')
